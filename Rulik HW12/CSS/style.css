@@ -1,1 +1,241 @@
-
+.header__nav{
+   display: inline-block;
+}
+.nav{
+   text-align: center;
+}
+.link__top{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16px;
+   color: #333333;
+}
+.link__bottom{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 19px;
+   color: #000000;
+}
+.ptop{
+   padding: 17px 13px 17px 13px;
+}
+.pbot{
+   padding: 30px 18px 30px 18px;
+}
+.logo{
+   padding: 20px 10px 16px 15px;
+}
+.beauty{
+   padding: 0px 10px 40px 8px;
+}
+.num{
+   color: #000000;
+   line-height: 19px;
+   padding: 20px 20px 20px 20px;
+}
+.marg{
+   margin: 35px 0px;
+}
+.button{
+   border: 2px solid #F13C6E;
+   border-radius: 20px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   padding: 10px 54px;
+}
+.button-position{
+   padding: 40px 10px 0px 11px;
+}
+.number-position{
+   padding: 49px 10px 0px 103px;
+}
+.sale{
+   background-image: url(../image/banner.png);
+}
+h1{
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 56px;
+   padding: 192px 0px 39px 15px;
+}
+h2{
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 28px;
+   padding: 81px 0px 22px 15px;
+}
+h3{
+   font-size: 21px;
+   font-weight: 500;
+   line-height: 24.6px;
+   letter-spacing: 0.05em;
+   padding: 15px 0px;
+}
+h4{
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 21px;
+   padding: 20px 0px 20px 25px;
+}
+.description{
+   font-size: 14px;
+   line-height: 20px;
+   padding: 0 15px;
+}
+.more{
+   border: 2px solid #FFFFFF;
+   border-radius: 20px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   padding: 10px 67px;
+}
+.pdmore{
+   padding: 35px 0px 205px 15px;
+}
+.item__wrapper{
+   padding: 15px;
+}
+.card{
+   position: relative;
+}
+.card__img{
+   display: block;
+   padding: 25px 65px 20px 65px;
+}
+.card__description{
+   font-size: 14px;
+   line-height: 20px;
+   max-height: 40px;
+   overflow: hidden;
+}
+.card__button{
+   padding: 8px 0px 34px 0px;
+}
+.buy__button{
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.05em;
+   border: 2px solid #F13C6E;
+   border-radius: 20px;
+   padding: 7px 50px;
+}
+.card-link{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 1;
+}
+.special-padding{
+   padding: 0px 0px 65px 0px;
+}
+.rectangle__padding{
+   padding: 5px 0px 85px 0px;
+}
+.rectangle{
+   padding: 15px 15px 197px 15px;
+}
+.description__padding{
+   padding: 0px 25px;
+}
+.input{
+   border: 2px solid #F13C6E;
+   border-radius: 20px;
+   padding: 9px 53px 9px 15px;
+}
+::placeholder {
+   color: #C4C4C4;
+   font-size: 14px;
+   line-height: 16px;
+   padding: 7px 8px;
+ }
+.item__position__email{
+   padding: 25px 0px 30px 25px;
+}
+.item__position__map{
+   padding: 35px 0px 30px 25px;
+}
+.item__image__letter{
+   padding: 20px 30px 0px 0px;
+}
+.item__image__track{
+   padding: 40px 30px 0px 0px;
+}
+.storemap{
+   border: 2px solid #FFFFFF;
+   border-radius: 20px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   padding: 7px 51px;
+}
+.sponsors{
+   padding: 0px 15px;
+}
+.impulse{
+   border: 1px solid #EFEFEF;
+   padding: 32px 62px;
+}
+.footer-box{
+   padding: 15px 15px 45px 15px;
+}
+.footer-category{
+   padding: 45px 10px 25px 0px;
+}
+.category{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 22px;
+   color: #000000;
+}
+.link-box{
+   padding: 25px 0px 0px 0px;
+}
+.social-box{
+   padding: 0px 0px 35px 0px;
+}
+.footer-link{
+   font-size: 12px;
+   line-height: 28px;
+   color: #000000;
+}
+.social-link{
+   border: 2px solid #F13C6E;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+}
+.footer-img{
+   display: block;
+}
+.youtube{
+   margin: 36px 0px 0px 15px;
+   padding: 13px 9px;
+}
+.facebook{
+   margin: 36px 0px 0px 20px;
+   padding: 11px 14px;
+}
+.insta{
+   margin: 36px 0px 0px 20px;
+   padding: 11px 9px;
+}
+.bottom-wrapper{
+   padding: 0px 0px 0px 0px;
+}
+.bottom-box-left{
+   padding: 26px 0px 26px 15px;
+}
+.bottom-box-right{
+   padding: 26px 15px 26px 0px;
+}
+.bottom-text{
+   font-family: Roboto;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14px;
+   color: #828282;
+}

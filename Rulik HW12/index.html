@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,41 +14,365 @@
 </head>
 <body>
    <header>
-      <nav>
-         <ul>
-            <li><a href="#">Delivery</a></li>
-            <li><a href="#">Payment</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contacts</a></li>
-         </ul>
-      </nav>
-      <div>
-         <div class="logo">
-            <a href="#"><img src="image/logo.png" alt="logo"></a>
-            <a href="#"><img src="image/BEAUTY.png" alt="beauty"></a>
+      <div class="bg__gray">
+         <nav class="conteiner">
+            <ul class="nav">
+               <li class="header__nav ptop"><a class="link__top" href="#">Delivery</a></li>
+               <li class="header__nav ptop"><a class="link__top" href="#">Payment</a></li>
+               <li class="header__nav ptop"><a class="link__top" href="#">Reviews</a></li>
+               <li class="header__nav ptop"><a class="link__top" href="#">FAQ</a></li>
+               <li class="header__nav ptop"><a class="link__top" href="#">Contacts</a></li>
+             </ul>
+         </nav>
+      </div>
+      <div class="conteiner">
+         <div class="col-6 fl">
+            <a href="#"><img class="logo" src="image/logo.png" alt="logo"></a>
+            <a href="#"><img class="beauty" src="image/BEAUTY.png" alt="beauty"></a>
          </div>
-         <div class="callback">
-            <a href="tel:+12131234567">1 (213) 123-45-67</a>
-            <button type="button">Call back</button>
+         <div class="col-5 fr">
+            <div class="fl number-position">
+               <a class="num" href="tel:+12131234567">1 (213) 123-45-67</a>
+            </div>
+            <div class="fl button-position">
+               <button class="button bg-white" type="button">Call back</button>
+            </div>
          </div>
       </div>
-      <nav>
-         <ul>
-            <li><a href="#">Salon</a></li>
-            <li><a href="#">Barbershop</a></li>
-            <li><a href="#">Manicure</a></li>
-            <li><a href="#">Pedicure</a></li>
-            <li><a href="#">Massage</a></li>
-            <li><a href="#">Furniture</a></li>
-         </ul>
-      </nav>
+      <div class="clear border__top">
+         <nav class="conteiner">
+            <ul class="nav">
+               <li class="header__nav pbot"><a class="link__bottom" href="#">Salon</a></li>
+               <li class="header__nav pbot"><a class="link__bottom" href="#">Barbershop</a></li>
+               <li class="header__nav pbot"><a class="link__bottom" href="#">Manicure</a></li>
+               <li class="header__nav pbot"><a class="link__bottom" href="#">Pedicure</a></li>
+               <li class="header__nav pbot"><a class="link__bottom" href="#">Massage</a></li>
+               <li class="header__nav pbot"><a class="link__bottom" href="#">Furniture</a></li>
+            </ul>
+         </nav>
+      </div>
    </header>
-   <main>
-
+   <main class="bg__gray">
+      <article class="sale">
+         <section class="conteiner">
+            <h1 class="color__w">Super chair</h1>
+            <p class="description color__w">The text of the action always reflects the<br>essence, and not just<br>chatter, so be careful</p>
+            <div class="pdmore">
+               <a class="more color__w" href="#">More</a>
+            </div>
+         </section>
+      </article>
+      <article>
+         <section class="conteiner special-padding">
+            <div class="wrapper clear">
+               <h2>Special offers</h2>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                     <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                     </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                     <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                     </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                     <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                     </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                     <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                     </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="conteiner clear rectangle__padding">
+            <div class="wrapper">
+               <div class="item__wrapper col-6 fl">
+                  <div class="bg__pink rectangle">
+                     <div class="col-6 fl">
+                        <h4 class="color__w">Get bonuses and gifts</h4>
+                        <p class="card__description description__padding color__w">Every month we play<br>$1000 for our clients</p>
+                        <div class="item__position__email">
+                           <input class="input" type="email" name="e-mail" placeholder="Enter your e-mail">
+                        </div>
+                     </div>
+                     <div class="fr">
+                        <div>
+                           <img class="item__image__letter" src="image/letter.png" alt="letter">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              <div class="item__wrapper col-6 fl">
+                  <div class="bg__pink rectangle">
+                     <div class="col-6 fl">
+                        <h4 class="color__w">Visit us</h4>
+                        <p class="card__description description__padding color__w">Over 300 stores<br>throughout the USA</p>
+                        <div class="item__position__map">
+                           <a class="storemap color__w" href="#">Store map</a>
+                        </div>
+                     </div>
+                     <div class="fr">
+                        <div>
+                           <img class="item__image__track" src="image/delivery.png" alt="delivery">
+                        </div>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </section>
+         <section class="conteiner clear rrr">
+            <div class="sponsors wrapper">
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+               <div class="col-3 fl impulse bg-white">
+                  <img src="image/impuls.png" alt="logoimpuls">
+               </div>
+            </div>
+         </section>
+         <section class="conteiner special-padding">
+            <div class="wrapper clear">
+               <h2>Have you recently viewed</h2>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                     <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                     </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                    <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                    </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                     <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                     </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item__wrapper col-3 fl">
+                  <div class="bg-white">
+                     <div class="card">
+                        <a href="#" class="card-link"></a>
+                        <div>
+                           <img class="card__img" src="image/Chair.png" alt="chair">
+                           <p class="card__description align">Hairdressing chair "Norm"<br>hydraulic</p>
+                           <h3 class="align">$300</h3>
+                        </div>
+                     </div>
+                     <div class="card__button align">
+                        <a class="buy__button bg__pink color__w" href="#">Buy</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </article>
    </main>
    <footer>
-      
+      <div class="conteiner">
+         <nav class="wrapper clear">
+            <div class="footer-box col-3 fl">
+               <div class="footer-category">
+                  <h5><a class="category" href="#">Popular<br>categories</a></h5>
+               </div>
+               <div class="link-box border__top">
+                  <ul>
+                     <li><a class="footer-link" href="#">Нozzles</a></li>
+                     <li><a class="footer-link" href="#">Tools</a></li>
+                     <li><a class="footer-link" href="#">Gell polishes</a></li>
+                     <li><a class="footer-link" href="#">Design</a></li>
+                     <li><a class="footer-link" href="#">Building</a></li>
+                     <li><a class="footer-link" href="#">Equipment</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer-box col-3 fl">
+               <div class="footer-category">
+                  <h5><a class="category" href="#">Popular<br>categories</a></h5>
+               </div>
+               <div class="link-box border__top">
+                  <ul>
+                     <li><a class="footer-link" href="#">Нozzles</a></li>
+                     <li><a class="footer-link" href="#">Tools</a></li>
+                     <li><a class="footer-link" href="#">Gell polishes</a></li>
+                     <li><a class="footer-link" href="#">Design</a></li>
+                     <li><a class="footer-link" href="#">Building</a></li>
+                     <li><a class="footer-link" href="#">Equipment</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer-box col-3 fl">
+               <div class="footer-category">
+                  <h5><a class="category" href="#">Popular<br>categories</a></h5>
+               </div>
+               <div class="link-box border__top">
+                  <ul>
+                     <li><a class="footer-link" href="#">Нozzles</a></li>
+                     <li><a class="footer-link" href="#">Tools</a></li>
+                     <li><a class="footer-link" href="#">Gell polishes</a></li>
+                     <li><a class="footer-link" href="#">Design</a></li>
+                     <li><a class="footer-link" href="#">Building</a></li>
+                     <li><a class="footer-link" href="#">Equipment</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer-box col-3 fl">
+               <div class="footer-category">
+                  <h5><a class="category" href="#">Popular<br>categories</a></h5>
+               </div>
+               <div class="link-box border__top">
+                  <ul>
+                     <li><a class="footer-link" href="#">Нozzles</a></li>
+                     <li><a class="footer-link" href="#">Tools</a></li>
+                     <li><a class="footer-link" href="#">Gell polishes</a></li>
+                     <li><a class="footer-link" href="#">Design</a></li>
+                     <li><a class="footer-link" href="#">Building</a></li>
+                     <li><a class="footer-link" href="#">Equipment</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div class="border__top">
+         <nav class="conteiner">
+            <div class="wrapper clear social-box">
+               <div class="col-6 fl">
+                  <div class="social-link youtube col-1 fl">
+                     <a href="#"><img class="footer-img" src="image/youtube.png" alt="#"></a>
+                  </div>
+                  <div class="social-link facebook col-1 fl">
+                     <a href="#"><img class="footer-img" src="image/facebook.png" alt="#"></a>
+                  </div>
+                  <div class="social-link insta col-1 fl">
+                     <a href="#"><img class="footer-img" src="image/instagram.png" alt="#"></a>
+                  </div>
+               </div>
+               <div class="col-5 fr">
+                  <div class="fl number-position">
+                     <a class="num" href="tel:+12131234567">1 (213) 123-45-67</a>
+                  </div>
+                  <div class="fl button-position">
+                     <button class="button" type="button">Call back</button>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div class="bg__gray">
+         <div class="conteiner">
+           <div class="wrapper clear">
+               <div class="bottom-box-left col-9 fl">
+                  <p class="bottom-text">Best Store (c) 2019 All rights reserved. Online store of equipment for beauty salons</p>
+               </div>
+               <div class="bottom-box-right col- 3 fr">
+                  <p class="bottom-text">Privacy Policy</p>
+               </div>
+           </divc>
+         </div>
+      </div>
    </footer>
 </body>
 </html>

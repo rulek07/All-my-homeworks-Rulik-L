@@ -1,12 +1,98 @@
+@font-face{
+   font-family: Roboto;
+   src:url(../Fonts/Roboto-Regular.ttf) ;
+   font-weight: 400;
+}
+@font-face{
+   font-family: Roboto;
+   src:url(../Fonts/Roboto-Medium.ttf) ;
+   font-weight: 500;
+}
+@font-face{
+   font-family: Roboto;
+   src:url(../Fonts/Roboto-Bold.ttf) ;
+   font-weight: 700;
+}
+body{
+   max-width: 1920px;
+}
+/* img{
+   display: block;
+   width: 100%;
+   height: auto;
+} */
+*{
+   box-sizing: border-box;
+   font-family: Roboto;
+}
+a{
+   text-decoration: none;
+   font-family: Roboto;
+}
 .col-12{
    width: 100%;
-   float: left;
+   display: flow-root;
+}
+.col-9{
+   width: 75%;
+   display: flow-root;
 }
 .col-6{
    width: 50%;
-   float: left;
+   display: flow-root;
+}
+.col-5{
+   width: 41.6666666%;
+   display: flow-root;
+}
+.col-4{
+   width: 33.3333333%;
+   display: flow-root;
 }
 .col-3{
    width: 25%;
+   display: flow-root;
+}
+.col-2{
+   width: 16.6666666%;
+   display: flow-root;
+}
+.col-1{
+   width: 8.33333333%;
+   display: flow-root;
+}
+.fl{
    float: left;
+}
+.fr{
+   float: right;
+}
+.clear{
+   clear: both;
+}
+.align{
+   text-align: center;
+}
+.wrapper{
+   display: inline-block;
+   width: 100%;
+}
+.conteiner{
+   width: 1140px;
+   margin: 0 auto;
+}
+.border__top{
+   border-top: 1px solid #EFEFEF;
+}
+.bg__gray{
+   background-color: #E5E5E5;
+}
+.bg__pink{
+   background-color: #F13C6E;
+}
+.bg-white{
+   background-color: #FFFFFF;
+}
+.color__w{
+   color: #FFFFFF;
 }
