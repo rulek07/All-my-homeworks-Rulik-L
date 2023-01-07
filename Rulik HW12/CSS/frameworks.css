@@ -13,14 +13,6 @@
    src:url(../Fonts/Roboto-Bold.ttf) ;
    font-weight: 700;
 }
-body{
-   max-width: 1920px;
-}
-/* img{
-   display: block;
-   width: 100%;
-   height: auto;
-} */
 *{
    box-sizing: border-box;
    font-family: Roboto;
@@ -29,37 +21,23 @@ a{
    text-decoration: none;
    font-family: Roboto;
 }
-.col-12{
-   width: 100%;
-   display: flow-root;
-}
 .col-9{
    width: 75%;
-   display: flow-root;
 }
 .col-6{
    width: 50%;
-   display: flow-root;
 }
 .col-5{
    width: 41.6666666%;
-   display: flow-root;
 }
 .col-4{
    width: 33.3333333%;
-   display: flow-root;
 }
 .col-3{
    width: 25%;
-   display: flow-root;
-}
-.col-2{
-   width: 16.6666666%;
-   display: flow-root;
 }
 .col-1{
    width: 8.33333333%;
-   display: flow-root;
 }
 .fl{
    float: left;
@@ -67,8 +45,10 @@ a{
 .fr{
    float: right;
 }
-.clear{
+.clear::after{
+   content: '';
    clear: both;
+   display: table;
 }
 .align{
    text-align: center;
@@ -81,18 +61,47 @@ a{
    width: 1140px;
    margin: 0 auto;
 }
-.border__top{
+.border-top{
    border-top: 1px solid #EFEFEF;
 }
-.bg__gray{
+.border-pink{
+   border: 2px solid #F13C6E;
+}
+.bg-gray{
    background-color: #E5E5E5;
 }
-.bg__pink{
+.bg-pink{
    background-color: #F13C6E;
 }
 .bg-white{
    background-color: #FFFFFF;
 }
-.color__w{
+.color-w{
    color: #FFFFFF;
+}
+.color-b{
+   color: #000000;
+}
+.underline::after{
+   content: '';
+   display: block;
+   width: 100%;
+   height: 1px;
+   transform: scaleX(0);
+   background-color: #F13C6E;
+   transition: 0.3s;
+}
+.underline:hover::after{
+   transform: scaleX(1);
+}
+.shadow:hover{
+   box-shadow: 2px 2px 2px 2px #F13C6E;
+}
+.button-pink:hover{
+   background-color: #F13C6E;
+   color: #FFFFFF;
+}
+.button-white:hover{
+   background-color: #FFFFFF;
+   color: #000000;
 }
