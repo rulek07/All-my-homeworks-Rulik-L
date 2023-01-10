@@ -1,37 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
-   <title>Float</title>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+   <title>Modal and others</title>
 </head>
 <body>
-   <div class="wrapper">
-      <div class="conteiner">
-         <div class="square big left"><p>1</p></div>
-         <div class="square big right"><p>2</p></div>
+   <header class="wrapper__header-slogan">
+      <div class="conteiner__header">
+         <div class="banner__left">
+            <img src="image/photo_2023-01-06_11-52-27.jpg" alt="#">
+         </div>
+         <nav class="link__holder">
+            <div class="animation-holder"><div class="kubik"></div></div>
+            <div class="header__list">
+               <div class="inner__menu"><a class="header__link" href="#">Homepage</a>
+                  <div class="header__list__inner">
+                     <div><a class="header__link link-size-inner" href="#"><p>Homepage 1</p></a></div>
+                     <div><a class="header__link link-size-inner" href="#"><p>Homepage 2</p></a></div>
+                     <div  class="inner__menu__sub"><a class="header__link link-size-inner" href="#">Homepage 3</a>
+                        <div class="header__list__inner__sub">
+                           <div><a class="header__link link-size-inner" href="#"><p>Sub item 1</p></a></div>
+                           <div><a class="header__link link-size-inner" href="#"><p>Sub item 2</p></a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div><a class="header__link rotor" href="#">About</a></div>
+               <div><a class="header__link scale" href="#">Works</a></div>
+               <div><a class="header__link skew" href="#">Process</a></div>
+               <div><a id="modal" class="header__link" href="#">Contacts</a></div>
+            </div>
+         </nav>
       </div>
-      <div class="conteiner">
-         <div class="square big left"><p>1</p></div>
-         <div class="rectangle right">
-            <div class="square small left ml"><p>2</p></div>
-            <div class="square small left ml"><p>3</p></div>
-            <div class="square small left ml"><p>4</p></div>
-            <div class="square small left ml"><p>5</p></div>
+   </header>
+   <div class="wrapper__header-slogan">
+      <div class="conteiner__header-slogan">
+         <div class="conteiner__slogan">
+            <h1 class="slogan__title"><a>Design and layout</></h1>
+            <p class="slogan__text">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum <br>
+            has been the standard "fish" for Latin texts since the early 16th century.</p>
+            <div class="slogan__button">
+               <a class="slogan__link" href="#">Write me</a>
+            </div>
          </div>
       </div>
-      <div class="conteiner">
-         <div class="rectangle">
-            <div class="square big left mr"><p>1</p></div>
-            <div class="square big left"><p>2</p></div>
+   </div>
+   <main>
+      <article>
+         <section class="container__about">
+            <h2 class="about__title">About me</h2>
+            <p class="about__text">About meLorem Ipsum is fish text often used in print and web design.<br>Lorem Ipsum has been the standard "fish" for Latin texts since the early<br>16th century.</p>
+         </section>
+         <section class="wrapper__item">
+            <div class="container__item">
+               <div class="item__box">
+                  <div class="img__box">
+                     <img src="image/Group.png" alt="#">
+                  </div>
+                  <div class="text__box">
+                     <p class="item__numbers">40+</p>
+                     <p class="item__project">projects</p>
+                  </div>
+               </div>
+               <div class="item__box">
+                  <div class="img__box">
+                     <img src="image/Group.png" alt="#">
+                  </div>
+                  <div class="text__box">
+                     <p class="item__numbers">40+</p>
+                     <p class="item__project">projects</p>
+                  </div>
+               </div>
+               <div class="item__box">
+                  <div class="img__box">
+                     <img src="image/Group.png" alt="#">
+                  </div>
+                  <div class="text__box">
+                     <p class="item__numbers">40+</p>
+                     <p class="item__project">projects</p>
+                  </div>
+               </div>
+               <div class="item__box">
+                  <div class="img__box">
+                     <img src="image/Group.png" alt="#">
+                  </div>
+                  <div class="text__box">
+                     <p class="item__numbers">40+</p>
+                     <p class="item__project">projects</p>
+                  </div>
+               </div>
+               <div class="item__box">
+                  <div class="img__box">
+                     <img src="image/Group.png" alt="#">
+                  </div>
+                  <div class="text__box">
+                     <p class="item__numbers">40+</p>
+                     <p class="item__project">projects</p>
+                  </div>
+               </div>
+               <div class="item__box">
+                  <div class="img__box">
+                     <img src="image/Group.png" alt="#">
+                  </div>
+                  <div class="text__box">
+                     <p class="item__numbers">40+</p>
+                     <p class="item__project">projects</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="wrapper__video">
+            <div class="video__description">
+               <h2 class="video__title">How do I work</h2>
+               <p class="video__subtitle">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum<br>has been the standard "fish" for Latin texts since the early 16th century.</p>
+            </div>
+            <div class="video__box">
+               <iframe width="1110" height="600" src="https://www.youtube.com/embed/HihYQVuH64U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+         </section>
+      </article>
+   </main>
+   <div class="wrapper__footer">
+      <footer class="footer">
+         <h3 class="footer__name">John Smith</h3>
+         <p class="footer__epilog">(c) 2018. All rights reserved.</p>
+      </footer>
+   </div>
+   <div class="banner__right">
+      <img src="image/photo_2023-01-06_11-52-27.jpg" alt="#">
+   </div>
+   <div id="modal__form">
+      <div class="form__wrapper">
+         <div class="form__title">
+            Callback
+            <span class="close" id="form__close">x</span>
          </div>
-         <div class="rectangle right">
-            <div class="square big left ml"><p>3</p></div>
-            <div class="square big left ml"><p>4</p></div>
+         <div class="">
+            <form method="post" action="https://fom.in.ua/echo">
+               <input class="form__input" type="name" name="name" placeholder="Name" required>
+               <input class="form__input" inputmode="number" type="tel" name="phone" placeholder="Phone numer" required>
+               <button class="form__button" type="submit">Call me, call!</button>
+            </form>
          </div>
       </div>
    </div>
 </body>
 </html>
+<script>
+   $(document).ready(function (){
+      $('#modal').on('click',function(){
+         $('#modal__form').addClass('active');
+      })
+
+      $('#form__close').on('click',function(){
+         $('#modal__form').removeClass('active');
+      })
+   });
+</script>
