@@ -1,167 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-   <title>Modal and others</title>
+   <title>Lokalise</title>
 </head>
 <body>
-   <header class="wrapper__header-slogan">
-      <div class="conteiner__header">
-         <div class="banner__left">
-            <img src="image/photo_2023-01-06_11-52-27.jpg" alt="#">
-         </div>
-         <nav class="link__holder">
-            <div class="animation-holder"><div class="kubik"></div></div>
-            <div class="header__list">
-               <div class="inner__menu"><a class="header__link" href="#">Homepage</a>
-                  <div class="header__list__inner">
-                     <div><a class="header__link link-size-inner" href="#"><p>Homepage 1</p></a></div>
-                     <div><a class="header__link link-size-inner" href="#"><p>Homepage 2</p></a></div>
-                     <div  class="inner__menu__sub"><a class="header__link link-size-inner" href="#">Homepage 3</a>
-                        <div class="header__list__inner__sub">
-                           <div><a class="header__link link-size-inner" href="#"><p>Sub item 1</p></a></div>
-                           <div><a class="header__link link-size-inner" href="#"><p>Sub item 2</p></a></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div><a class="header__link rotor" href="#">About</a></div>
-               <div><a class="header__link scale" href="#">Works</a></div>
-               <div><a class="header__link skew" href="#">Process</a></div>
-               <div><a id="modal" class="header__link" href="#">Contacts</a></div>
+   <header>
+      <div class="conteiner__header flex__between">
+         <div class="flex__evenly col-7">
+            <div>
+               <a class="header__logo" href="#"><img src="image/Group (1).png" alt="#"></a>
             </div>
-         </nav>
+            <div><a class="header__link font-300" href="#">Product</a></div>
+            <div><a class="header__link font-300" href="#">Features</a></div>
+            <div><a class="header__link font-300" href="#">Pricing</a></div>
+            <div><a class="header__link font-300" href="#">Case studies</a></div>
+            <div><a class="header__link font-300" href="#">Resources</a></div>
+         </div>
+         <div class="header__buttons col-4">
+            <div><a class="header__button__left button__white font-600 col-4" href="#">Log in</a></div>
+            <div><a class="header__button__right button__orange font-600 col-6" href="#">Try it free</a></div>
+         </div>
       </div>
    </header>
-   <div class="wrapper__header-slogan">
-      <div class="conteiner__header-slogan">
-         <div class="conteiner__slogan">
-            <h1 class="slogan__title"><a>Design and layout</></h1>
-            <p class="slogan__text">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum <br>
-            has been the standard "fish" for Latin texts since the early 16th century.</p>
-            <div class="slogan__button">
-               <a class="slogan__link" href="#">Write me</a>
-            </div>
-         </div>
-      </div>
-   </div>
    <main>
-      <article>
-         <section class="container__about">
-            <h2 class="about__title">About me</h2>
-            <p class="about__text">About meLorem Ipsum is fish text often used in print and web design.<br>Lorem Ipsum has been the standard "fish" for Latin texts since the early<br>16th century.</p>
+      <article class="conteiner__main">
+         <section class="main__about col-5">
+            <h1 class="main__title font-600">Accelerate localization from code to delivery</h1>
+            <div class="main__description font-300">A localization and translation management platform for agile teams. Embrace automation, workflow transparency, and fast project delivery.</div>
+            <div class="button__holder__main flex">
+               <div><a class="main__button__left button__orange" href="">Try it free</a></div>
+               <div><a class="main__button__right button__white" href="">Book a demo</a></div>
+            </div>
+            <div class="main__undertext">Try all features for 14 days · No credit card required</div>
          </section>
-         <section class="wrapper__item">
-            <div class="container__item">
-               <div class="item__box">
-                  <div class="img__box">
-                     <img src="image/Group.png" alt="#">
-                  </div>
-                  <div class="text__box">
-                     <p class="item__numbers">40+</p>
-                     <p class="item__project">projects</p>
-                  </div>
-               </div>
-               <div class="item__box">
-                  <div class="img__box">
-                     <img src="image/Group.png" alt="#">
-                  </div>
-                  <div class="text__box">
-                     <p class="item__numbers">40+</p>
-                     <p class="item__project">projects</p>
-                  </div>
-               </div>
-               <div class="item__box">
-                  <div class="img__box">
-                     <img src="image/Group.png" alt="#">
-                  </div>
-                  <div class="text__box">
-                     <p class="item__numbers">40+</p>
-                     <p class="item__project">projects</p>
-                  </div>
-               </div>
-               <div class="item__box">
-                  <div class="img__box">
-                     <img src="image/Group.png" alt="#">
-                  </div>
-                  <div class="text__box">
-                     <p class="item__numbers">40+</p>
-                     <p class="item__project">projects</p>
-                  </div>
-               </div>
-               <div class="item__box">
-                  <div class="img__box">
-                     <img src="image/Group.png" alt="#">
-                  </div>
-                  <div class="text__box">
-                     <p class="item__numbers">40+</p>
-                     <p class="item__project">projects</p>
-                  </div>
-               </div>
-               <div class="item__box">
-                  <div class="img__box">
-                     <img src="image/Group.png" alt="#">
-                  </div>
-                  <div class="text__box">
-                     <p class="item__numbers">40+</p>
-                     <p class="item__project">projects</p>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <section class="wrapper__video">
-            <div class="video__description">
-               <h2 class="video__title">How do I work</h2>
-               <p class="video__subtitle">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum<br>has been the standard "fish" for Latin texts since the early 16th century.</p>
-            </div>
-            <div class="video__box">
-               <iframe width="1110" height="600" src="https://www.youtube.com/embed/HihYQVuH64U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+         <section class="main__logo__holder col-7">
+            <img class="main__logo" src="../Rulik HW11/image/h1logo.svg" alt="#">
          </section>
       </article>
+      <article class="sponsors">
+         <section>
+            <h3 class="sponsors__title font-600">The preferred localization<br>tool of 1500+ companies</h3>
+         </section>
+         <section class="sponsors__holder flex__evenly">
+             <div><a href="#"><img src="image/Group (2).png" alt="#"></a></div>
+             <div><a href="#"><img src="image/Frame (4).png" alt="#"></a></div>
+             <div><a href="#"><img src="image/Tidal.png" alt="#"></a></div>
+             <div><a href="#"><img src="image/Frame (1).png" alt="#"></a></div>
+             <div><a href="#"><img src="image/Frame (2).png" alt="#"></a></div>
+             <div><a href="#"><img src="image/Frame (3).png" alt="#"></a></div>
+         </section>
+      </article>
+      <article class="benefits font-600 flex__wrap">
+         <div class="flex benefits__card">
+            <div class="benefits__text__box col-6">
+               <h3 class="benefits__title">Control the localization process</h3>
+               <div class="benefits__description font-400">Collaborate with your team in a single workspace. Add and assign <u>tasks</u>, track progress, and enjoy a seamless localization workflow where you know who is doing what and when.</div>
+               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
+            </div>
+            <div class="benefits__box col-6">
+               <img src="image/1111 1.png" alt="#">
+            </div>
+         </div>
+         <div class="flex__reverse benefits__card__reverse">
+            <div class="benefits__text__box__reverse col-6">
+               <h3 class="benefits__title">Shorten time to market</h3>
+               <div class="benefits__description font-400">Localize your product in parallel with the development cycle. Use the <u>Adobe XD</u>, <u>Figma</u>, and <u>Sketch</u> plugins to start working on translations as soon as the product design is ready. No more idle waiting.</div>
+               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
+            </div>
+            <div class="benefits__box col-6">
+               <img src="image/Frame (5).png" alt="#">
+            </div>
+         </div>
+        <div class="flex benefits__card">
+            <div class="benefits__text__box col-6">
+               <h3 class="benefits__title">Ensure quality</h3>
+               <div class="benefits__description font-400">Use built-in tools — e.g. <u>translation memory</u>, machine translation, and <u>QA checks</u> — to enhance the quality and cohesion of translations. Add product <u>screenshots</u> for context and use the <u>in-context editors</u> for instant previews.</div>
+               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
+            </div>
+            <div class="benefits__box col-6">
+               <img src="image/Frame (6).png" alt="#">
+            </div>
+        </div>
+         <div class="flex__reverse benefits__card__reverse">
+            <div class="benefits__text__box__reverse col-6">
+               <h3 class="benefits__title">Less work for developers</h3>
+               <div class="benefits__description font-400">Eliminate the hassle of localization and let developers get back to their main tasks. Save hours with the powerful <u>API</u>, <u>CLI</u>, <u>mobile SDKs</u>, and integrations with <u>GitHub</u>, <u>Bitbucket</u>, <u>JIRA</u>, and more.</div>
+               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
+            </div>
+            <div class="benefits__box col-6">
+               <img src="image/Frame.png" alt="#">
+            </div>
+         </div>
+      </article>
+      <article class="bg__beige">
+         <h3 class="font-600 opportunity__title">What can you localize with Lokalise?</h3>
+         <div class="flex__wrap opprtunity__card__holder">
+            <div class="opportunity__card col-4 flex__column">
+               <div class="col-4 opportunity__image"><img src="image/Rectangle (1).png" alt="#"></div>
+               <h4 class="font-600 opportunity__card__title">Web apps</h4>
+               <div class="opportunity__description"><p>Any kind of web apps — backend,<br>frontend, single page, blogs — you<br>name it.</p></div>
+            </div>
+            <div class="opportunity__card col-4 flex__column">
+               <div class="col-4 opportunity__image"><img src="image/Rectangle (2).png" alt="#"></div>
+               <h4 class="font-600 opportunity__card__title">Mobile apps</h4>
+               <div class="opportunity__description"><p>Upload any mobile platform language<br>files. Embed <u>Lokalise iOS SDK</u> or<br><u>Lokalise Android SDK</u> if you prefer.</p></div>
+            </div>
+            <div class="opportunity__card col-4 flex__column">
+               <div class="col-4 opportunity__image"><img src="image/Rectangle (3).png" alt="#"></div>
+               <h4 class="font-600 opportunity__card__title">Games</h4>
+               <div class="opportunity__description"><p>Our cloud software is trusted by<br>many leading game developers<br>around the world.</p></div>
+            </div>
+            <div class="opportunity__card col-4 flex__column">
+               <div class="col-4 opportunity__image"><img src="image/Rectangle (4).png" alt="#"></div>
+               <h4 class="font-600 opportunity__card__title">Documents</h4>
+               <div class="opportunity__description"><p>Upload your DOCX and static HTML<br>files.</p></div>
+            </div>
+            <div class="opportunity__card col-4 flex__column">
+               <div class="col-4 opportunity__image"><img src="image/Rectangle (5).png" alt="#"></div>
+               <h4 class="font-600 opportunity__card__title">Marketing e-mails</h4>
+               <div class="opportunity__description"><p>Integrate with Salesforce Marketing<br>Cloud (coming soon) or translate<br>static e-mails.</p></div>
+            </div>
+            <div class="opportunity__card col-4 flex__column">
+               <div class="col-4 opportunity__image"><img src="image/Rectangle (6).png" alt="#"></div>
+               <h4 class="font-600 opportunity__card__title">IoT</h4>
+               <div class="opportunity__description"><p>We support most popular localization<br>file formats.</p></div>
+            </div>
+         </div>
+      </article>
+      <article class="productivity">
+         <h3 class="productivity__title font-600">Boost your localization team’s productivity tenfold</h3>
+         <div class="productivuty__card__holder flex">
+            <div class="productivity__card flex__column col-4">
+               <div class="productivity__img col-4"><img src="image/Rectangle (7).png" alt="#"></div>
+               <h5 class="productivity__card__title font-600">Managers</h5>
+               <div>
+                  <p class="productivity__card__description font-400">Update existing and launch new features and products while simultaneously localizing them in multiple languages. Streamline your team's workflow, maximize productivity, and speed up expansion to other markets.</p>
+               </div>
+               <div><a href="#"></a>Learn more</div>
+            </div>
+            <div class="productivity__card flex__column col-4">
+               <div class="productivity__img col-5"><img src="image/Rectangle (8).png" alt="#"></div>
+               <h5 class="productivity__card__title font-600">Developers</h5>
+               <div>
+                  <p class="productivity__card__description font-400">Set up an integration with your code repository or your own custom SDK via Lokalise's powerful API. Do that once, and every time you make changes in the code, they'll be automatically imported to Lokalise for translation.</p>
+               </div>
+               <div><a href="#"></a>Learn more</div>
+            </div>
+            <div class="productivity__card flex__column col-4">
+               <div class="productivity__img col-5"><img src="image/Rectangle (9).png" alt="#"></div>
+               <h5 class="productivity__card__title font-600">Translators</h5>
+               <div>
+                  <p class="productivity__card__description font-400">Eliminate double-work and neverending revisions with visual context (screenshots) and live previews. Improve the quality and speed of your translations with built-in CAT tools, like autocomplete, inline machine translation, and translation memory.</p>
+               </div>
+               <div><a href="#"></a>Learn more</div>
+            </div>
+         </div>
+      </article>
    </main>
-   <div class="wrapper__footer">
-      <footer class="footer">
-         <h3 class="footer__name">John Smith</h3>
-         <p class="footer__epilog">(c) 2018. All rights reserved.</p>
-      </footer>
-   </div>
-   <div class="banner__right">
-      <img src="image/photo_2023-01-06_11-52-27.jpg" alt="#">
-   </div>
-   <div id="modal__form">
-      <div class="form__wrapper">
-         <div class="form__title">
-            Callback
-            <span class="close" id="form__close">x</span>
-         </div>
-         <div class="">
-            <form method="post" action="https://fom.in.ua/echo">
-               <input class="form__input" type="name" name="name" placeholder="Name" required>
-               <input class="form__input" inputmode="number" type="tel" name="phone" placeholder="Phone numer" required>
-               <button class="form__button" type="submit">Call me, call!</button>
-            </form>
-         </div>
-      </div>
-   </div>
+   <footer></footer>
 </body>
 </html>
-<script>
-   $(document).ready(function (){
-      $('#modal').on('click',function(){
-         $('#modal__form').addClass('active');
-      })
-
-      $('#form__close').on('click',function(){
-         $('#modal__form').removeClass('active');
-      })
-   });
-</script>
