@@ -22,15 +22,13 @@ a{
 }
 body{
    font-family: GraphikLCG;
-   max-width: 1440px;
-   margin: 0 auto;
 }
 img{
    display: block;
    width: 100%;
    height: auto;
 }
-h3{
+/* h3{
    font-size: 50px;
    line-height: 60px;
 }
@@ -42,33 +40,36 @@ h4{
 h5{
    font-size: 30px;
    line-height: 40px;
+} */
+.col-10{
+   width: 83.333%;
 }
 .col-9{
    width: 75%;
 }
 .col-8{
-   width: 66.66666%;
+   width: 66.666%;
 }
 .col-7{
-   width: 58.33333%;
+   width: 58.333%;
 }
 .col-6{
    width: 50%;
 }
 .col-5{
-   width: 41.66666%;
+   width: 41.666%;
 }
 .col-4{
-   width: 33.33333%;
+   width: 33.333%;
 }
 .col-3{
    width: 25%;
 }
 .col-2{
-   width: 16.66666%;
+   width: 16.666%;
 }
 .col-1{
-   width: 8.333333%s;
+   width: 8.3333%;
 }
 .font-300{
    font-weight: 300;
@@ -79,14 +80,15 @@ h5{
 .font-600{
    font-weight: 600;
 }
-.align-center{
+/* .align-center{
    align-self: center;
-}
+} */
 .flex{
    display: flex;
    flex-wrap: nowrap;
+   align-items: center;
 }
-.flex__reverse{
+/* .flex__reverse{
    display: flex;
    flex-wrap: nowrap;
    flex-direction: row-reverse;
@@ -104,41 +106,48 @@ h5{
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
+} */
+.flex__around{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
 }
 .flex__between{
    display: flex;
    flex-wrap: nowrap;
    justify-content: space-between;
-}
-.flex__evenly{
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: space-evenly;
    align-items: center;
 }
 .conteiner__header{
-   padding: 17px 0px;
+   max-width: 1440px;
+   margin: 0 auto;
    border-bottom: 1px solid gray;
+}
+.wrapper__header{
+   width: 1338px;
+   margin: 0 auto;
+   padding: 25px 0px;
 }
 .header__buttons{
    display: flex;
    align-items: center;
    justify-content: flex-end;
-   margin-right: 51px;
 }
 .header__logo{
-   padding: 0px 15px;
+   align-self: center;
 }
 .header__link{
    font-size: 15px;
    line-height: 20px;
+   padding: 0px 0px;
 }
 .header__button__right{
    padding: 14px 22px;
 }
 .header__button__left{
    padding: 13px 35px;
-   margin-right: 10px;
+   margin-right: 11px;
 }
 .button__white{
    font-size: 16px;
@@ -152,7 +161,9 @@ h5{
    color: #FFFFFF;
    border: 0;
 }
-.conteiner__main{
+/* .conteiner__main{
+   max-width: 1440px;
+   margin: 0 auto;
    display: flex;
    flex-wrap: nowrap;
    padding: 0px 40px 80px 40px;
@@ -171,8 +182,8 @@ h5{
 }
 .button__holder__main{
    margin: 58px 0px 32px 0px;
-}
-.main__button__left{
+} */
+/* /* .main__button__left{
    padding: 22px 44px;
 }
 .main__button__right{
@@ -187,11 +198,13 @@ h5{
    margin: 150px 25px 0px 0px;
 }
 .sponsors{
+   max-width: 1440px;
+   margin: 0 auto;
    background-color: #FF9C7D;
    margin: 92px 0px 0px 0px;
    padding: 0px 0px 40px 0px;
-}
-.sponsors__title{
+} */
+/* .sponsors__title{
    padding: 109px 0px 0px 112px;
    text-align: center;
 }
@@ -199,12 +212,14 @@ h5{
    padding: 67px 0px;
 }
 .benefits{
+   max-width: 1440px;
+   margin: 0 auto;
    padding: 20px 20px 0px 20px;
    column-gap: 16px;
 }
 .benefits__box{
    margin: 16px 25px;
-}
+} */
 .benefits__text__box{
    padding: 0px 25px 0px 50px;
    margin: 0px 50px 0px 0px;
@@ -235,6 +250,10 @@ h5{
 }
 .bg__beige{
    background-color: #FFF8E4;
+}
+.conteiner__opportunity{
+   max-width: 1440px;
+   margin: 0 auto;
 }
 .opprtunity__card__holder{
    padding: 0px 60px;
@@ -272,4 +291,4 @@ h5{
 }
 .productivity__card{
 
-}
+} */
