@@ -11,14 +11,14 @@
 <body>
    <header class="conteiner__header">
       <div class="wrapper__header flex__between">
-         <div class="flex__between col-7">
-            <div class="header__logo col-2"><a class="" href="#"><img src="image/Group (1).png" alt="#"></a></div>
-            <div class="flex__around col-9">
-               <div class="header__link col-2"><a class="font-400" href="#">Product</a></div>
-               <div class="header__link col-2"><a class="font-400" href="#">Features</a></div>
-               <div class="header__link col-2"><a class="font-400" href="#">Pricing</a></div>
-               <div class="header__link col-2"><a class="font-400" href="#">Case studies</a></div>
-               <div class="header__link col-2"><a class="font-400" href="#">Resources</a></div>
+         <div class="flex align__center col-7">
+            <div class="col-2"><a class="" href="#"><img src="image/Group (1).png" alt="#"></a></div>
+            <div class="flex align__center col-10">
+               <div class="header__link Product"><a class="font-400" href="#">Product</a></div>
+               <div class="header__link Features"><a class="font-400" href="#">Features</a></div>
+               <div class="header__link Pricing"><a class="font-400" href="#">Pricing</a></div>
+               <div class="header__link Case"><a class="font-400" href="#">Case studies</a></div>
+               <div class="header__link Resources"><a class="font-400" href="#">Resources</a></div>
             </div>
          </div>
          <div class="header__buttons col-3">
@@ -27,12 +27,12 @@
          </div>
       </div>
    </header>
-   <!-- <main>
+   <main>
       <article class="conteiner__main">
          <section class="main__about col-5">
             <h1 class="main__title font-600">Accelerate localization from code to delivery</h1>
             <div class="main__description font-300">A localization and translation management platform for agile teams. Embrace automation, workflow transparency, and fast project delivery.</div>
-            <div class="button__holder__main flex">
+            <div class="flex align__center">
                <div><a class="main__button__left button__orange" href="">Try it free</a></div>
                <div><a class="main__button__right button__white" href="">Book a demo</a></div>
             </div>
@@ -42,126 +42,255 @@
             <img class="main__logo" src="../Rulik HW11/image/h1logo.svg" alt="#">
          </section>
       </article>
-      <article class="sponsors">
-         <section>
-            <h3 class="sponsors__title font-600">The preferred localization<br>tool of 1500+ companies</h3>
-         </section>
-         <section class="sponsors__holder flex__evenly">
-             <div><a href="#"><img src="image/Group (2).png" alt="#"></a></div>
-             <div><a href="#"><img src="image/Frame (4).png" alt="#"></a></div>
-             <div><a href="#"><img src="image/Tidal.png" alt="#"></a></div>
-             <div><a href="#"><img src="image/Frame (1).png" alt="#"></a></div>
-             <div><a href="#"><img src="image/Frame (2).png" alt="#"></a></div>
-             <div><a href="#"><img src="image/Frame (3).png" alt="#"></a></div>
-         </section>
-      </article>
-      <article class="benefits font-600 flex__wrap">
-         <div class="flex benefits__card">
-            <div class="benefits__text__box col-6">
-               <h3 class="benefits__title">Control the localization process</h3>
-               <div class="benefits__description font-400">Collaborate with your team in a single workspace. Add and assign <u>tasks</u>, track progress, and enjoy a seamless localization workflow where you know who is doing what and when.</div>
-               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
-            </div>
-            <div class="benefits__box col-6">
-               <img src="image/1111 1.png" alt="#">
-            </div>
-         </div>
-         <div class="flex__reverse benefits__card__reverse">
-            <div class="benefits__text__box__reverse col-6">
-               <h3 class="benefits__title">Shorten time to market</h3>
-               <div class="benefits__description font-400">Localize your product in parallel with the development cycle. Use the <u>Adobe XD</u>, <u>Figma</u>, and <u>Sketch</u> plugins to start working on translations as soon as the product design is ready. No more idle waiting.</div>
-               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
-            </div>
-            <div class="benefits__box col-6">
-               <img src="image/Frame (5).png" alt="#">
-            </div>
-         </div>
-        <div class="flex benefits__card">
-            <div class="benefits__text__box col-6">
-               <h3 class="benefits__title">Ensure quality</h3>
-               <div class="benefits__description font-400">Use built-in tools — e.g. <u>translation memory</u>, machine translation, and <u>QA checks</u> — to enhance the quality and cohesion of translations. Add product <u>screenshots</u> for context and use the <u>in-context editors</u> for instant previews.</div>
-               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
-            </div>
-            <div class="benefits__box col-6">
-               <img src="image/Frame (6).png" alt="#">
-            </div>
+      <article class="conteiner__sponsors">
+        <div class="wrapper__sponsors">
+            <section>
+               <h3 class="sponsors__title font-600">The preferred localization<br>tool of 1500+ companies</h3>
+            </section>
+            <section class="sponsors__holder flex align__center">
+                <div><a href="#"><img src="image/specialized.png" alt="#"></a></div>
+                <div><a href="#"><img src="image/Frame (4).png" alt="#"></a></div>
+                <div><a href="#"><img src="image/Tidal.png" alt="#"></a></div>
+                <div><a href="#"><img src="image/Frame (1).png" alt="#"></a></div>
+                <div><a href="#"><img src="image/Frame (2).png" alt="#"></a></div>
+                <div><a href="#"><img src="image/Frame (3).png" alt="#"></a></div>
+            </section>
         </div>
-         <div class="flex__reverse benefits__card__reverse">
-            <div class="benefits__text__box__reverse col-6">
-               <h3 class="benefits__title">Less work for developers</h3>
-               <div class="benefits__description font-400">Eliminate the hassle of localization and let developers get back to their main tasks. Save hours with the powerful <u>API</u>, <u>CLI</u>, <u>mobile SDKs</u>, and integrations with <u>GitHub</u>, <u>Bitbucket</u>, <u>JIRA</u>, and more.</div>
-               <div class="benefits__description benefits__link font-600"><a href="#">Start now</a></div>
+      </article>
+      <article class="conteiner__benefits font-600 flex__wrap">
+         <section class="flex benefits__card">
+            <div class="benefits__text__box col-6">
+               <h3 class="benefits__title__control">Control the localization process</h3>
+               <div class="benefits__description__control font-400">Collaborate with your team in a single workspace. Add and assign <u>tasks</u>, track progress, and enjoy a seamless localization workflow where you know who is doing what and when.</div>
+               <div class="benefits__link__control font-600"><a href="#">Start now</a></div>
             </div>
             <div class="benefits__box col-6">
-               <img src="image/Frame.png" alt="#">
+               <div class="benefits__image col-8">
+                  <img class="" src="image/Framecard.png" alt="#">
+               </div>
             </div>
-         </div>
+         </section>
+         <section class="flex benefits__card">
+            <div class="benefits__text__box__reverse col-6">
+               <h3 class="benefits__title__shorten">Shorten time to market</h3>
+               <div class="benefits__description__shorten font-400">Localize your product in parallel with the development cycle. Use the <u>Adobe XD</u>, <u>Figma</u>, and <u>Sketch</u> plugins to start working on translations as soon as the product design is ready. No more idle waiting.</div>
+               <div class="benefits__link__shorten font-600"><a href="#">Start now</a></div>
+            </div>
+            <div class="benefits__box__reverse col-6">
+               <div class="benefits__image col-8">
+                  <img class="" src="image/Framecard.png" alt="#">
+               </div>
+            </div>
+         </section>
+         <section class="flex benefits__card">
+            <div class="benefits__text__box col-6">
+               <h3 class="benefits__title__ensure">Ensure quality</h3>
+               <div class="benefits__description__ensure font-400">Use built-in tools — e.g. <u>translation memory</u>, machine translation, and <u>QA checks</u> — to enhance the quality and cohesion of translations. Add product <u>screenshots</u> for context and use the <u>in-context editors</u> for instant previews.</div>
+               <div class="benefits__link__ensure font-600"><a href="#">Start now</a></div>
+            </div>
+            <div class="benefits__box col-6">
+               <div class="benefits__image col-8">
+                  <img class="" src="image/Framecard.png" alt="#">
+               </div>
+            </div>
+         </section>
+         <section class="flex benefits__card">
+            <div class="benefits__text__box__reverse col-6">
+               <h3 class="benefits__title__less">Less work for developers</h3>
+               <div class="benefits__description__less font-400">Eliminate the hassle of localization and let developers get back to their main tasks. Save hours with the powerful <u>API</u>, <u>CLI</u>, <u>mobile SDKs</u>, and integrations with <u>GitHub</u>, <u>Bitbucket</u>, <u>JIRA</u>, and more.</div>
+               <div class="benefits__link__less font-600"><a href="#">Start now</a></div>
+            </div>
+            <div class="benefits__box__reverse__bottom col-6">
+               <div class="benefits__image col-8">
+                  <img class="" src="image/Framecard.png" alt="#">
+               </div>
+            </div>
+         </section>
       </article>
-      <article class="conteiner__opportunity bg__beige">
-         <h3 class="font-600 opportunity__title">What can you localize with Lokalise?</h3>
-         <div class="flex__wrap opprtunity__card__holder">
-            <div class="opportunity__card col-4 flex__column">
-               <div class="col-4 opportunity__image"><img src="image/Rectangle (1).png" alt="#"></div>
-               <h4 class="font-600 opportunity__card__title">Web apps</h4>
-               <div class="opportunity__description"><p>Any kind of web apps — backend,<br>frontend, single page, blogs — you<br>name it.</p></div>
-            </div>
-            <div class="opportunity__card col-4 flex__column">
-               <div class="col-4 opportunity__image"><img src="image/Rectangle (2).png" alt="#"></div>
-               <h4 class="font-600 opportunity__card__title">Mobile apps</h4>
-               <div class="opportunity__description"><p>Upload any mobile platform language<br>files. Embed <u>Lokalise iOS SDK</u> or<br><u>Lokalise Android SDK</u> if you prefer.</p></div>
-            </div>
-            <div class="opportunity__card col-4 flex__column">
-               <div class="col-4 opportunity__image"><img src="image/Rectangle (3).png" alt="#"></div>
-               <h4 class="font-600 opportunity__card__title">Games</h4>
-               <div class="opportunity__description"><p>Our cloud software is trusted by<br>many leading game developers<br>around the world.</p></div>
-            </div>
-            <div class="opportunity__card col-4 flex__column">
-               <div class="col-4 opportunity__image"><img src="image/Rectangle (4).png" alt="#"></div>
-               <h4 class="font-600 opportunity__card__title">Documents</h4>
-               <div class="opportunity__description"><p>Upload your DOCX and static HTML<br>files.</p></div>
-            </div>
-            <div class="opportunity__card col-4 flex__column">
-               <div class="col-4 opportunity__image"><img src="image/Rectangle (5).png" alt="#"></div>
-               <h4 class="font-600 opportunity__card__title">Marketing e-mails</h4>
-               <div class="opportunity__description"><p>Integrate with Salesforce Marketing<br>Cloud (coming soon) or translate<br>static e-mails.</p></div>
-            </div>
-            <div class="opportunity__card col-4 flex__column">
-               <div class="col-4 opportunity__image"><img src="image/Rectangle (6).png" alt="#"></div>
-               <h4 class="font-600 opportunity__card__title">IoT</h4>
-               <div class="opportunity__description"><p>We support most popular localization<br>file formats.</p></div>
+      <article class="conteiner__opportunity">
+         <div class="wrapper__opportunity">
+            <h3 class="font-600 opportunity__title">What can you localize with Lokalise?</h3>
+            <div class="flex__wrap opprtunity__card__holder">
+               <div class="opportunity__card col-4 flex__column">
+                  <div class="col-5 opportunity__image"><img src="image/Rectangle (1).png" alt="#"></div>
+                  <h4 class="font-600 opportunity__card__title__web">Web apps</h4>
+                  <div class="opportunity__description"><p>Any kind of web apps — backend,<br>frontend, single page, blogs — you<br>name it.</p></div>
+               </div>
+               <div class="opportunity__card col-4 flex__column">
+                  <div class="col-5 opportunity__image"><img src="image/Rectangle (2).png" alt="#"></div>
+                  <h4 class="font-600 opportunity__card__title__mobile">Mobile apps</h4>
+                  <div class="opportunity__description"><p>Upload any mobile platform language<br>files. Embed <u>Lokalise iOS SDK</u> or<br><u>Lokalise Android SDK</u> if you prefer.</p></div>
+               </div>
+               <div class="opportunity__card col-4 flex__column">
+                  <div class="col-5 opportunity__image"><img src="image/Rectangle (3).png" alt="#"></div>
+                  <h4 class="font-600 opportunity__card__title__games">Games</h4>
+                  <div class="opportunity__description"><p>Our cloud software is trusted by<br>many leading game developers<br>around the world.</p></div>
+               </div>
+               <div class="opportunity__card col-4 flex__column">
+                  <div class="col-5 opportunity__image"><img src="image/Rectangle (4).png" alt="#"></div>
+                  <h4 class="font-600 opportunity__card__title__documents">Documents</h4>
+                  <div class="opportunity__description"><p>Upload your DOCX and static HTML<br>files.</p></div>
+               </div>
+               <div class="opportunity__card col-4 flex__column">
+                  <div class="col-5 opportunity__image"><img src="image/Rectangle (5).png" alt="#"></div>
+                  <h4 class="font-600 opportunity__card__title__marketing">Marketing e-mails</h4>
+                  <div class="opportunity__description"><p>Integrate with Salesforce Marketing<br>Cloud (coming soon) or translate<br>static e-mails.</p></div>
+               </div>
+               <div class="opportunity__card col-4 flex__column">
+                  <div class="col-5 opportunity__image"><img src="image/Rectangle (6).png" alt="#"></div>
+                  <h4 class="font-600 opportunity__card__title__iot">IoT</h4>
+                  <div class="opportunity__description"><p>We support most popular localization<br>file formats.</p></div>
+               </div>
             </div>
          </div>
       </article>
       <article class="productivity">
-         <h3 class="productivity__title font-600">Boost your localization team’s productivity tenfold</h3>
-         <div class="productivuty__card__holder flex">
-            <div class="productivity__card flex__column col-4">
-               <div class="productivity__img col-4"><img src="image/Rectangle (7).png" alt="#"></div>
-               <h5 class="productivity__card__title font-600">Managers</h5>
-               <div>
-                  <p class="productivity__card__description font-400">Update existing and launch new features and products while simultaneously localizing them in multiple languages. Streamline your team's workflow, maximize productivity, and speed up expansion to other markets.</p>
+         <div class="wrapper__productivity">
+            <h3 class="productivity__title font-600">Boost your localization team’s productivity tenfold</h3>
+            <section class="productivuty__card__holder flex">
+               <div class="productivity__card__managers flex__column col-4">
+                  <div class="productivity__img col-4"><img src="image/Rectangle (7).png" alt="#"></div>
+                  <h5 class="productivity__card__title__managers font-600">Managers</h5>
+                  <div>
+                     <p class="productivity__card__description__managers font-400">Update existing and launch new features and products while simultaneously localizing them in multiple languages. Streamline your team's workflow, maximize productivity, and speed up expansion to other markets.</p>
+                  </div>
+                  <div class="poductivity__link font-400"><a href="#">Learn more</a></div>
                </div>
-               <div><a href="#"></a>Learn more</div>
+               <div class="productivity__card__developers flex__column col-4">
+                  <div class="productivity__img col-5"><img src="image/Rectangle (8).png" alt="#"></div>
+                  <h5 class="productivity__card__title__developers font-600">Developers</h5>
+                  <div>
+                     <p class="productivity__card__description__developers font-400">Set up an integration with your code repository or your own custom SDK via Lokalise's <u>powerful API</u>. Do that once, and every time you make changes in the code, they'll be automatically imported to Lokalise for translation.</p>
+                  </div>
+                  <div class="poductivity__link font-400"><a href="#">Learn more</a></div>
+               </div>
+               <div class="productivity__card__translators flex__column col-4">
+                  <div class="productivity__img col-5"><img src="image/Rectangle (9).png" alt="#"></div>
+                  <h5 class="productivity__card__title__translators font-600">Translators</h5>
+                  <div>
+                     <p class="productivity__card__description__translators font-400">Eliminate double-work and neverending revisions with visual context (screenshots) and live previews. Improve the quality and speed of your translations with built-in CAT tools, like autocomplete, inline machine translation, and translation memory.</p>
+                  </div>
+                  <div class="poductivity__link font-400"><a href="#">Learn more</a></div>
+               </div>
+            </section>
+         </div>
+      </article>
+      <article class="conteiner__chief">
+         <div class="wrapper__chief flex">
+            <div class="col-9">
+               <h5 class="chief__title">“Lokalise has turned a task we were dreading into an absolute pleasure. Great platform, intuitive UX, powerful API. The automatic text recognition for screenshots has been a lifesaver, and over-the-air updates are the icing on the cake.”</h5>
+               <div class="chief__position font-400"><p>Edward Cooper, Chief Mobile Officer</p></div>
+               <div class="chief__logo col-2"><a><img src="image/Frame (1).png" alt="#"></a></div>
             </div>
-            <div class="productivity__card flex__column col-4">
-               <div class="productivity__img col-5"><img src="image/Rectangle (8).png" alt="#"></div>
-               <h5 class="productivity__card__title font-600">Developers</h5>
-               <div>
-                  <p class="productivity__card__description font-400">Set up an integration with your code repository or your own custom SDK via Lokalise's powerful API. Do that once, and every time you make changes in the code, they'll be automatically imported to Lokalise for translation.</p>
-               </div>
-               <div><a href="#"></a>Learn more</div>
-            </div>
-            <div class="productivity__card flex__column col-4">
-               <div class="productivity__img col-5"><img src="image/Rectangle (9).png" alt="#"></div>
-               <h5 class="productivity__card__title font-600">Translators</h5>
-               <div>
-                  <p class="productivity__card__description font-400">Eliminate double-work and neverending revisions with visual context (screenshots) and live previews. Improve the quality and speed of your translations with built-in CAT tools, like autocomplete, inline machine translation, and translation memory.</p>
-               </div>
-               <div><a href="#"></a>Learn more</div>
+            <div class="col-3 chief__foto">
+               <img src="image/Rectangle (10).png" alt="#">
             </div>
          </div>
       </article>
-   </main> -->
-   <footer></footer>
+      <article class="conteiner__cake">
+         <div class="wrapper__cake flex">
+            <div class="col-7 flex">
+               <div class="cake__logo col-3"><img src="image/image 1.png" alt="#"></div>
+               <h6 class="cake__title col-9 font-600">The most-loved translation management software</h6>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-4 flex">
+               <div class="flex__column cake__column__G2 col-5">
+                  <div class="col-10"><img src="image/g2.png" alt="#"></div>
+                  <div class="col-10"><img src="image/stars.png" alt="#"></div>
+                  <div class=""><p>USERS LOVE US</p></div>
+               </div>
+               <div class="flex__column cake__column__capterra col-5">
+                  <div class="col-11"><img src="image/capterra.png" alt="#"></div>
+                  <div class="col-9"><img src="image/stars.png" alt="#"></div>
+                  <div class=""><p>HIGHEST RATED</p></div>
+               </div>
+            </div>
+         </div>
+      </article>
+      <article class="conteiner__integrate">
+         <div class="wrapper__integrate flex__column">
+            <h2 class="integrate__title font-600">Integrate Lokalise with your work tools</h2>
+            <div class="integrate__description"><p>Automate processes, eliminate routine tasks,<br>and track progress with ease.</p></div>
+            <div class="integrate__image col-10"><img src="image/bigbird.png" alt="#"></div>
+            <div><a class="button__orange integrate__button font-600" href="#">See all integrations</a></div>
+         </div>
+      </article>
+      <article class="conteiner__localization">
+         <div class="wrapper__localization flex__column">
+            <h2 class="localization__title font-600">Localization made easy.<br>Why wait?</h2>
+            <div class="localization__description font-400"><p>Try for free or let us show you how it works.</p></div>
+            <div><a class="localization__button" href="#">Try it free</a></div>
+         </div>
+      </article>
+   </main>
+   <footer class="conteiner__footer">
+      <div class="wrapper__footer">
+         <div class="footer__top flex">
+            <div class="flex__column col-4">
+               <div class="footer__case__title font-600"><p>Case Studies</p></div>
+               <div class="footer__case__foto col-9"><img src="image/Rectangle (11).png" alt="#"></div>
+               <div class="footer__case__logo col-3"><img src="image/specialized.png" alt="#"></div>
+               <div class="footer__case__description"><p>Riding towards global success with a 100% teammate enthusiasm</p></div>
+               <div class="footer__case__link font-600"><a href="#">Read more</a></div>
+            </div>
+            <div class="footer__list__product col-2">
+               <ul>
+                  <li class="list__title font-600"><a href="#">Product</a></li>
+                  <li class="list__link"><a href="#">For developers</a></li>
+                  <li class="list__link"><a href="#">For managers</a></li>
+                  <li class="list__link"><a href="#">For translators</a></li>
+                  <li class="list__link"><a href="#">For designers</a></li>
+                  <li class="list__link"><a href="#">Integrations</a></li>
+                  <li class="list__link"><a href="#">Security</a></li>
+                  <li class="list__link"><a href="#">Pricing</a></li>
+                  <li class="list__link"><a href="#">Automations</a></li>
+               </ul>
+            </div>
+            <div class="footer__list__support col-2">
+               <ul>
+                  <li class="list__title font-600"><a href="#">Support</a></li>
+                  <li class="list__link"><a href="#">Contact</a></li>
+                  <li class="list__link"><a href="#">Documentation</a></li>
+                  <li class="list__link"><a href="#">Status</a></li>
+                  <li class="list__link"><a href="#">Product Updates</a></li>
+                  <li class="list__link"><a href="#">CLI Tool</a></li>
+                  <li class="list__link"><a href="#">API Reference</a></li>
+                  <li class="list__link"><a href="#">iOS and Android SDK</a></li>
+                  <li class="list__link"><a href="#">Supported File Formats</a></li>
+               </ul>
+            </div>
+            <div class="footer__list__company col-2">
+               <ul>
+                  <li class="list__title font-600"><a href="#">Company</a></li>
+                  <li class="list__link"><a href="#">About</a></li>
+                  <li class="list__link"><a href="#">Blog</a></li>
+                  <li class="list__link"><a href="#">Careers | We`re Hiring</a></li>
+                  <li class="list__link"><a href="#">Case Studies</a></li>
+                  <li class="list__link"><a href="#">Media Kit</a></li>
+               </ul>
+            </div>
+            <div class="footer__list__legal col-2">
+               <ul>
+                  <li class="list__title font-600"><a href="#">Legal</a></li>
+                  <li class="list__link"><a href="#">Terms of Service</a></li>
+                  <li class="list__link"><a href="#">Privacy Policy</a></li>
+                  <li class="list__link"><a href="#">Cookie Policy</a></li>
+                  <li class="list__link"><a href="#">Privacy Shield</a></li>
+                  <li class="list__link"><a href="#">DPA</a></li>
+                  <li class="list__link"><a href="#">List of Sub-processors</a></li>
+                  <li class="list__link"><a href="#">Candidates Privacy Notice</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="fotoer__bottom flex">
+            <div class="flex">
+               <div class="footer__bottom__image"><img src="image/lokalise.png" alt="#"></div>
+               <div class="footer__bottom__description col-6"><p>Localization workflow for your web and mobile apps, games and digital content.</p></div>
+            </div>
+            <div class="footer__bottom__signature col-2"><p>©2001-2020<br>All rights reserved.</p></div>
+         </div>
+      </div>
+   </footer>
 </body>
 </html>
