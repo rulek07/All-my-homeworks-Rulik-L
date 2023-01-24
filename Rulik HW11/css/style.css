@@ -133,9 +133,9 @@ h6{
    border-bottom: 1px solid gray;
 }
 .wrapper__header{
-   width: 1338px;
+   width: 1368px;
    margin: 0 auto;
-   padding: 25px 0px;
+   padding: 25px 15px;
 }
 .header__buttons{
    display: flex;
@@ -182,11 +182,11 @@ h6{
    border: 0;
 }
 .conteiner__main{
-   max-width: 1306px;
+   max-width: 1336px;
    margin: 0 auto;
    display: flex;
    flex-wrap: nowrap;
-   padding: 128px 0px 172px 7px;
+   padding: 128px 15px 172px 23px;
 }
 .main__about{
    margin: 0px 0px 0px 0px;
@@ -219,8 +219,9 @@ h6{
    background-color: #FF9C7D;
 }
 .wrapper__sponsors{
-   max-width: 1250px;
+   max-width: 1280px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 .sponsors__title{
    padding: 108px 0px 0px 111px;
@@ -231,9 +232,9 @@ h6{
    padding: 67px 0px 107px 0px;
 }
 .conteiner__benefits{
-   max-width: 1290px;
+   max-width: 1320px;
    margin: 0 auto;
-   padding: 0px 0px 0px 0px; 
+   padding: 0px 15px; 
 }
 .benefits__box{
    background-color: #FFF8E4;
@@ -329,9 +330,9 @@ h6{
    margin: -10px 0px 0px 0px;
 }
 .wrapper__opportunity{
-   max-width: 1320px;
+   max-width: 1350px;
    margin: 0 auto;
-   padding: 0px 0px 73px 0px;
+   padding: 0px 15px 73px 15px;
 }
 .opprtunity__card__holder{
    padding: 0px 0px;
@@ -371,8 +372,9 @@ h6{
    padding: 23px 0px 22px 0px;
 }
 .wrapper__productivity{
-   max-width: 1334px;
+   max-width: 1364px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 .productivity__title{
    padding: 155px 0px 0px 22px;
@@ -422,9 +424,9 @@ h6{
    background-color: #C9E8F2;
 }
 .wrapper__chief{
-   max-width: 1290px;
+   max-width: 1320px;
    margin: 0 auto;
-   padding: 54px 0px 105px 0px;
+   padding: 54px 15px 105px 15px;
 }
 .chief__title{
    padding: 10px 60px 0px 0px;
@@ -445,9 +447,9 @@ h6{
    background-color: #DABC98;
 }
 .wrapper__cake{
-   max-width: 1332px;
+   max-width: 1362px;
    margin: 0 auto;
-   padding: 88px 0px;
+   padding: 88px 15px;
 }
 .cake__logo{
    padding: 0px 17px 0px 0px;
@@ -469,11 +471,11 @@ h6{
    background-color: #E5E5E5;
 }
 .wrapper__integrate{
-   max-width: 1290px;
+   max-width: 1320px;
    margin: 0 auto;
    align-items: center;
    text-align: center;
-   padding: 165px 0px 169px 0px;
+   padding: 165px 15px 169px 15px;
 }
 .integrate__title{
    padding: 0px 210px;
@@ -494,11 +496,11 @@ h6{
    background-color: #FF9C7D;
 }
 .wrapper__localization{
-   max-width: 1290px;
+   max-width: 1320px;
    margin: 0 auto;
    align-items: center;
    text-align: center;
-   padding: 120px 0px 161px 0px;
+   padding: 120px 15px 161px 15px;
 }
 .localization__title{
    padding: 0px 0px 0px 0px;
@@ -528,9 +530,9 @@ h6{
    background-color: #EEEEEE;
 }
 .wrapper__footer{
-   max-width: 1290px;
+   max-width: 1320px;
    margin: 0 auto;
-   padding: 92px 0px 0px 0px;
+   padding: 92px 15px 0px 15px;
 }
 .footer__top{
    border-bottom: 1px solid #000000;
@@ -578,8 +580,8 @@ h6{
    line-height: 15px;
    padding: 0px 0px 15px 0px;
 }
-.fotoer__bottom{
-justify-content: space-between;
+.footer__bottom{
+   justify-content: space-between;
    padding: 52px 0px 43px 0px;
 }
 .footer__bottom__image{
@@ -594,4 +596,7 @@ justify-content: space-between;
    font-size: 12px;
    line-height: 15px;
    padding: 0px 0px 0px 30px;
+}
+@media (max-widht: 1370px) {
+   
 }
