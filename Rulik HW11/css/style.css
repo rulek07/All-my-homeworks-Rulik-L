@@ -133,7 +133,7 @@ h6{
    border-bottom: 1px solid gray;
 }
 .wrapper__header{
-   width: 1368px;
+   max-width: 1368px;
    margin: 0 auto;
    padding: 25px 15px;
 }
@@ -180,6 +180,46 @@ h6{
    background-color: #FF6336;
    color: #FFFFFF;
    border: 0;
+}
+.menu{
+   position: relative;
+   width: 40px;
+   height: 40px;
+   display: none;
+}
+.menu span{
+   width: 100%;
+}
+.menu span:nth-of-type(1){
+   position: absolute;
+   top: 10%;
+   border-top: 3px solid #FF9C7D;
+   border-radius: 2px;
+}
+.menu span:nth-of-type(2){
+   position: absolute;
+   top: 46%;
+   border-top: 3px solid #FF9C7D;
+   border-radius: 2px;
+}
+.menu span:nth-of-type(3){
+   position: absolute;
+   top: 80%;
+   border-top: 3px solid #FF9C7D;
+   border-radius: 2px;
+}
+.box__menu{
+   position: absolute;
+   top: 60px;
+   right: 0;
+   display: none;
+   background-color: #DABC98;
+   border: 1px solid #FF9C7D;
+   border-radius: 3px;
+}
+.header__link__menu{
+   font-size: 30px;
+   line-height: 50px;
 }
 .conteiner__main{
    max-width: 1336px;
@@ -597,6 +637,379 @@ h6{
    line-height: 15px;
    padding: 0px 0px 0px 30px;
 }
-@media (max-widht: 1370px) {
-   
+
+
+@media (max-width: 1290px) {
+   .Product{
+      padding-left: 25px;
+   }
+   .Features{
+      padding-left: 25px;
+   }
+   .Pricing{
+      padding-left: 25px;
+   }
+   .Case{
+      padding-left: 25px;
+   }
+   .Resources{
+      padding-left: 25px;
+   }
+}
+
+
+@media (max-width: 1060px) {
+   .header__button__right{
+      padding: 7px 11px;
+   }
+   .header__button__left{
+      padding: 7px 11px;
+      margin-right: 6px;
+   }
+   .Product{
+      padding-left: 15px;
+   }
+   .Features{
+      padding-left: 15px;
+   }
+   .Pricing{
+      padding-left: 15px;
+   }
+   .Case{
+      padding-left: 15px;
+   }
+   .Resources{
+      padding-left: 15px;
+   }
+   .conteiner__main{
+      max-width: 1336px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 28px 15px 50px 23px;
+   }
+   .sponsors__title{
+      padding: 60px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__card{
+      padding: 30px 0px 30px 0px
+   }
+   .opportunity__title{
+      padding: 60px 0px 65px 0px;
+      text-align:center; 
+   }
+   .productivity__title{
+      padding: 65px 0px 70px 0px;
+   }
+   .productivuty__card__holder{
+      padding: 35px 0px 35px 0px;
+   }
+   .wrapper__integrate{
+      max-width: 1320px;
+      margin: 0 auto;
+      align-items: center;
+      text-align: center;
+      padding: 35px 15px 50px 15px;
+   }
+   .wrapper__localization{
+      max-width: 1320px;
+      margin: 0 auto;
+      align-items: center;
+      text-align: center;
+      padding: 35px 15px 35px 15px;
+   }
+   .wrapper__footer{
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 35px 15px 0px 15px;
+   }
+   .footer__top{
+      border-bottom: 1px solid #000000;
+      padding: 0px 0px 35px 0px;
+   }
+}
+
+
+@media (max-width: 1024px) {
+   .col-lg-12{
+      width: 91.666%;
+   }
+   .col-lg-11{
+      width: 91.666%;
+   }
+   .col-lg-10{
+      width: 83.333%;
+   }
+   .col-lg-9{
+      width: 75%;
+   }
+   .col-lg-8{
+      width: 66.666%;
+   }
+   .col-lg-7{
+      width: 58.333%;
+   }
+   .col-lg-6{
+      width: 50%;
+   }
+   .col-lg-5{
+      width: 41.666%;
+   }
+   .col-lg-4{
+      width: 33.333%;
+   }
+   .col-lg-3{
+      width: 25%;
+   }
+   .col-lg-2{
+      width: 16.666%;
+   }
+   .col-lg-1{
+      width: 8.3333%;
+   }
+   .header__link__box{
+      justify-content: space-between;
+   }
+   .main__title{
+      font-size: 45px;
+      line-height: 50px;
+   }
+   h3{
+      font-size: 35px;
+      line-height: 40px;
+   }
+   h2{
+      font-size: 40px;
+      line-height: 45px;
+   }
+   .wrapper__cake{
+      max-width: 1362px;
+      margin: 0 auto;
+      padding: 35px 15px;
+   }
+   .benefits__title__control{
+      padding: 50px 60px 0px 0px;
+   }
+   .benefits__title__shorten{
+      padding: 50px 150px 0px 112px;
+   }
+   .benefits__title__ensure{
+      padding: 50px 0px 0px 0px;
+   }
+   .benefits__title__less{
+      padding: 50px 60px 0px 112px;
+   }
+   .benefits__box{
+      background-color: #FFF8E4;
+      margin: 0px 0px 0px 25px;
+      padding: 150px 0px 150px 0px;
+   }
+   .benefits__box__reverse{
+      background-color: #FFF8E4;
+      margin: 0px 25px 0px 0px;
+      padding: 150px 0px 150px 0px;
+   }
+   .benefits__box__reverse__bottom{
+      background-color: #FFF8E4;
+      margin: 0px 25px 0px 0px;
+      padding: 150px 0px 133px 0px;
+   }
+}
+@media (max-width: 890px) {
+   .col-md-10{
+      width: 83.333%;
+   }
+   .col-md-9{
+      width: 75%;
+   }
+   .col-md-6{
+      width: 50%;
+   }
+   .col-md-4{
+      width: 33.333%;
+   }
+   .col-md-3{
+      width: 25%;
+   }
+   .conteiner__main{
+      max-width: 1336px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 28px 15px 50px 23px;
+   }
+   .benefits__card{
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0px 25px 0px
+   }
+   .benefits__card:nth-last-of-type(odd){
+      flex-direction: column;
+   }
+   .benefits__title__control{
+      padding: 50px 0px 0px 0px;
+   }
+   .benefits__title__shorten{
+      padding: 50px 0px 0px 0px;
+   }
+   .benefits__title__ensure{
+      padding: 50px 0px 0px 0px;
+   }
+   .benefits__title__less{
+      padding: 50px 0px 0px 0px;
+   }
+   .benefits__box{
+      background-color: #FFF8E4;
+      margin: 0px 0px 0px 0px;
+      padding: 50px 0px 50px 0px;
+   }
+   .benefits__box__reverse{
+      background-color: #FFF8E4;
+      margin: 0px 0px 0px 0px;
+      padding: 50px 0px 50px 0px;
+   }
+   .benefits__box__reverse__bottom{
+      background-color: #FFF8E4;
+      margin: 0px 0px 0px 0px;
+      padding: 50px 0px 50px 0px;
+   }
+   .benefits__description__shorten{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 29px 0px 0px 0px;
+   }
+   .benefits__description__ensure{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 30px 0px 0px 0px;
+   }
+   .benefits__description__control{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 30px 0px 0px 0px;
+   }
+   .benefits__description__less{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 33px 0px 0px 0px;
+   }
+   .benefits__link__shorten{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 36px 0px 0px 0px;
+   }
+   .benefits__link__less{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 26px 0px 0px 0px;
+   }
+   .sponsors__holder{
+      justify-content: space-between;
+      padding: 67px 0px 107px 0px;
+      flex-wrap: wrap;
+   }
+   .sponsors__image{
+      padding: 0px 40px;
+   }
+   .integrate__title{
+      padding: 0px 25px;
+   }
+   .footer__case__link{
+      font-size: 15px;
+      line-height: 30px;
+      padding: 15px 0px 0px 0px;
+      text-decoration: underline;
+   }
+   .footer__top{
+      flex-wrap: wrap;
+      border-bottom: 1px solid #000000;
+      padding: 0px 0px 95px 0px;
+   }
+   .footer__bottom{
+      justify-content: space-between;
+      padding: 10px 0px 10px 0px;
+   }
+}
+@media (max-width: 768px) {
+   .col-s-12{
+      width: 100%;
+   }
+   .col-s-10{
+      width: 83.333%;
+   }
+   .col-s-9{
+      width: 75%;
+   }
+   .col-s-6{
+      width: 50%;
+   }
+   .col-s-4{
+      width: 33.333%;
+   }
+   .col-s-3{
+      width: 25%;
+   }
+   .col-s-0{
+      width: 0%;
+   }
+   .header__link__box{
+      display: none;
+   }
+   .header__buttons{
+      display: none;
+   }
+   .menu{
+      display: block;
+   }
+   .box__menu.active{
+      display: block;
+   }
+   .main__buttons__holder{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+   }
+   .main__button__left{
+      padding: 20px 60px;
+   }
+   .main__button__right{
+      padding: 20px 46px;
+      margin: 0px 0px 0px 0px;
+   }
+   .sponsors__holder{
+      row-gap: 15px;
+   }
+   .sponsors__image{
+      padding: 0px 80px;
+   }
+   .opprtunity__card__holder{
+      justify-content: center;
+   }
+   .productivity__title{
+      padding: 55px 0px 0px 0px;
+      text-align: center;
+   }
+   .productivuty__card__holder{
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 0px 15px 0px;
+   }
+   .productivity__card__managers{
+      align-items: center;
+      margin: 0px 0px 0px 22px;
+   }
+   .productivity__card__developers{
+      align-items: center;
+      margin: 16px 0px 0px 7px;
+   }
+   .productivity__card__translators{
+      align-items: center;
+      margin: 8px 0px 0px 8px;
+   }
+   .wrapper__cake{
+      flex-direction: column;
+   }
 }
