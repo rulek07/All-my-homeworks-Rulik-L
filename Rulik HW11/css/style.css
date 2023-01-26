@@ -817,6 +817,9 @@ h6{
    }
 }
 @media (max-width: 890px) {
+   .col-md-12{
+      width: 100%;
+   }
    .col-md-10{
       width: 83.333%;
    }
@@ -851,15 +854,19 @@ h6{
    }
    .benefits__title__control{
       padding: 50px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__title__shorten{
       padding: 50px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__title__ensure{
       padding: 50px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__title__less{
       padding: 50px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__box{
       background-color: #FFF8E4;
@@ -880,31 +887,49 @@ h6{
       font-size: 20px;
       line-height: 30px;
       padding: 29px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__description__ensure{
       font-size: 20px;
       line-height: 30px;
       padding: 30px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__description__control{
       font-size: 20px;
       line-height: 30px;
       padding: 30px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__description__less{
       font-size: 20px;
       line-height: 30px;
       padding: 33px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__link__control{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 30px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__link__shorten{
       font-size: 20px;
       line-height: 30px;
       padding: 36px 0px 0px 0px;
+      text-align: center;
    }
    .benefits__link__less{
       font-size: 20px;
       line-height: 30px;
       padding: 26px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__link__ensure{
+      font-size: 20px;
+      line-height: 30px;
+      padding: 35px 0px 0px 0px;
+      text-align: center;
    }
    .sponsors__holder{
       justify-content: space-between;
@@ -926,7 +951,36 @@ h6{
    .footer__top{
       flex-wrap: wrap;
       border-bottom: 1px solid #000000;
-      padding: 0px 0px 95px 0px;
+      padding: 0px 0px 25px 0px;
+   }
+   .footer__top__foto{
+      align-items: center;
+   }
+   .footer__case__title{
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+   }
+   .footer__case__logo{
+      padding: 0px 0px 0px 0px;
+   }
+   .footer__case__description{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 11px 0px 0px 0px;
+      text-align: center;
+   }
+   .footer__list__product{
+      padding: 15px 0px 15px 0px;
+   }
+   .footer__list__support{
+      padding: 15px 0px 15px 0px;
+   }
+   .footer__list__company{
+      padding: 15px 0px 15px 0px;
+   }
+   .footer__list__legal{
+      padding: 15px 0px 15px 0px;
    }
    .footer__bottom{
       justify-content: space-between;
@@ -967,17 +1021,34 @@ h6{
    .box__menu.active{
       display: block;
    }
+   .main__title{
+      font-size: 35px;
+      line-height: 40px;
+      text-align: center;
+   }
+   .main__description{
+      margin: 15px 0px;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+   }
    .main__buttons__holder{
       display: flex;
       flex-direction: column;
-      row-gap: 20px;
+      row-gap: 10px;
    }
    .main__button__left{
-      padding: 20px 60px;
+      padding: 10px 20px;
    }
    .main__button__right{
-      padding: 20px 46px;
+      padding: 10px 6px;
       margin: 0px 0px 0px 0px;
+   }
+   .main__undertext{
+      font-size: 15px;
+      line-height: 25px;
+      margin: 15px 0px 0px 0px;
+      text-align: center;
    }
    .sponsors__holder{
       row-gap: 15px;
@@ -999,17 +1070,360 @@ h6{
    }
    .productivity__card__managers{
       align-items: center;
-      margin: 0px 0px 0px 22px;
+      margin: 0px 0px 0px 0px;
    }
    .productivity__card__developers{
       align-items: center;
-      margin: 16px 0px 0px 7px;
+      margin: 16px 0px 0px 0px;
    }
    .productivity__card__translators{
       align-items: center;
-      margin: 8px 0px 0px 8px;
+      margin: 8px 0px 0px 0px;
+   }
+   .productivity__card__description__managers{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0px 0px 0px 0px;
+      text-align: center;
+   }
+   .productivity__card__description__developers{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0px 0px 0px 0px;
+      text-align: center;
+   }
+   .productivity__card__description__translators{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0px 0px 0px 0px;
+      text-align: center;
    }
    .wrapper__cake{
       flex-direction: column;
+   }
+   .cake__column__cake{
+      flex-direction: column;
+   }
+   .cake__logo{
+      padding: 0px 0px 0px 0px;
+      margin: 0 auto;
+   }
+   .cake__title{
+      align-self: center;
+      padding: 15px 0px 15px 0px;
+      text-align: center;
+   }
+   .cake__column__G2{
+      justify-content: space-around;
+      padding: 2px 31px 2px 0px;
+      margin: 9px 0px 13px 13px;
+      align-items: center;
+   }
+   .cake__column__capterra{
+      justify-content: space-around;
+      padding: 10px 8px 13px 13px;
+      align-items: center;
+   }
+   .wrapper__chief{
+      flex-direction: column;
+   }
+   .chief__title{
+      padding: 10px 0px 0px 0px;
+      text-align: center;
+   }
+   .chief__position{
+      font-family: roboto;
+      font-size: 15px;
+      line-height: 25px;
+      padding: 23px 0px 0px 0px;
+      text-align: center;
+   }
+   .chief__logo{
+      padding: 7px 0px 15px 0px;
+      margin: 0 auto;
+   }
+   .chief__foto{
+      padding: 0px 0px 0px 0px;
+      align-self: center;
+   }
+}
+@media (max-width: 576px) {
+   .col-xs-12{
+      width: 100%;
+   }
+   .col-xs-11{
+      width: 91.666%;
+   }
+   .col-xs-10{
+      width: 83.333%;
+   }
+   .col-xs-9{
+      width: 75%;
+   }
+   .col-xs-7{
+      width: 58.333%;
+   }
+   .col-xs-6{
+      width: 50%;
+   }
+   .col-xs-3{
+      width: 25%;
+   }
+   .wrapper__header{
+      max-width: 1368px;
+      margin: 0 auto;
+      padding: 5px 15px;
+   }
+   .menu{
+      width: 30px;
+      height: 30px;
+   }
+   .main__title{
+      font-size: 25px;
+      line-height: 27px;
+   }
+   .conteiner__main{
+      max-width: 1336px;
+      padding: 10px 15px;
+   }
+   .main__description{
+      margin: 5px 0px;
+      font-size: 10px;
+      line-height: 15px;
+   }
+   .main__button__left{
+      padding: 5px 16px;
+   }
+   .main__button__right{
+      padding: 5px 2px;
+   }
+   .main__undertext{
+      font-size: 10px;
+      line-height: 15px;
+      margin: 0px 0px 0px 0px;
+   }
+   .main__logo__holder{
+      margin: 22px 0px 0px 0px;
+   }
+   .main__buttons__holder{
+      display: flex;
+      flex-direction: column;
+      row-gap: 0px;
+   }
+   .sponsors__title{
+      padding: 15px 0px 0px 0px;
+      text-align: center;
+   }
+   h3{
+      font-size: 25px;
+      line-height: 30px;
+   }
+   .sponsors__holder{
+      padding: 30px 0px 30px 0px;
+      flex-wrap: wrap;
+   }
+   .sponsors__image{
+      margin: 0 auto;
+   }
+   .benefits__card{
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0px 25px 0px
+   }
+   .benefits__card:nth-last-of-type(odd){
+      flex-direction: column;
+   }
+   .benefits__title__control{
+      padding: 5px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__title__shorten{
+      padding: 5px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__title__ensure{
+      padding: 5px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__title__less{
+      padding: 5px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__box{
+      background-color: #FFF8E4;
+      margin: 0px 0px 0px 0px;
+      padding: 50px 0px 50px 0px;
+   }
+   .benefits__box__reverse{
+      background-color: #FFF8E4;
+      margin: 0px 0px 0px 0px;
+      padding: 50px 0px 50px 0px;
+   }
+   .benefits__box__reverse__bottom{
+      background-color: #FFF8E4;
+      margin: 0px 0px 0px 0px;
+      padding: 50px 0px 50px 0px;
+   }
+   .benefits__description__shorten{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__description__ensure{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__description__control{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__description__less{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 0px 0px;
+      text-align: center;
+   }
+   .benefits__link__control{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 15px 0px;
+      text-align: center;
+   }
+   .benefits__link__shorten{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 15px 0px;
+      text-align: center;
+   }
+   .benefits__link__less{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 15px 0px;
+      text-align: center;
+   }
+   .benefits__link__ensure{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 15px 0px 15px 0px;
+      text-align: center;
+   }
+   h4{
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+   }
+   .opportunity__title{
+      padding: 30px 0px 30px 0px;
+      text-align:center; 
+   }
+   .opportunity__description{
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+   }
+   .wrapper__opportunity{
+      max-width: 1350px;
+      margin: 0 auto;
+      padding: 0px 15px;
+   }
+   h5{
+      font-size: 25px;
+      line-height: 30px;
+   }
+   .productivity__card__title__managers{
+      padding: 10px 0px;
+   }
+   .productivity__card__title__developers{
+      padding: 10px 0px;
+   }
+   .productivity__card__title__translators{
+      padding: 10px 0px;
+   }
+   .integrate__button{
+      font-size: 16px;
+      padding: 10px 6px;
+   }
+   .localization__button{
+      font-size: 17px;
+      line-height: 60px;
+      background-color: #000000;
+      color: #ffffff;
+      border: 0;
+      padding: 10px 35px;
+   }
+   .footer__list__product{
+      padding: 15px 0px 15px 0px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .footer__list__support{
+      padding: 15px 0px 15px 0px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .footer__list__company{
+      padding: 15px 0px 15px 0px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .footer__list__legal{
+      padding: 15px 0px 15px 0px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .footer__bottom__image{
+      display: none;
+   }
+   .footer__bottom__description{
+      font-size: 8px;
+      line-height: 10px;
+      padding: 0px 0px 0px 0px;
+   }
+   .footer__bottom__signature{
+      font-size: 8px;
+      line-height: 10px;
+      padding: 0px 0px 0px 30px;
+   }
+}
+@media (max-width: 500px){
+   .col-xxs-12{
+      width: 100%;
+   }
+   .col-xxs-10{
+      width: 83.333%;
+   }
+   .col-xxs-9{
+      width: 75%;
+   }
+   .col-xxs-7{
+      width: 58.333%;
+   }
+   .col-xxs-6{
+      width: 50%;
+   }
+}
+@media (max-width: 340px){
+   .col-xxxs-12{
+      width: 100%;
+   }
+   .col-xxxs-11{
+      width: 91.666%;
+   }
+   .col-xxxs-10{
+      width: 83.333%;
+   }
+   .col-xxxs-9{
+      width: 75%;
+   }
+   .col-xxxs-7{
+      width: 58.333%;
+   }
+   .col-xxxs-6{
+      width: 50%;
    }
 }
