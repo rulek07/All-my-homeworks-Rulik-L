@@ -35,24 +35,9 @@ a:hover{
    color: purple;
    transition: 0.5s;
 }
-#button:hover{
+.button__hover:hover{
    box-shadow: 3px 3px #F1C0C7;
 }
-/* #underline:hover{
-   color: purple;
-}
-#underline::after{
-   content: '';
-   display: block;
-   width: 100%;
-   height: 1px;
-   transform: scaleX(0);
-   background-color: purple;
-   transition: 0.4s;
-}
-#underline:hover::after{
-   transform: scaleX(1);
-} */
 .col-11{
    width: 91.666%;
 }
@@ -160,10 +145,14 @@ a:hover{
    column-gap: 20px;
 }
 .extra__title{
+   max-height: 2rem;
+   overflow: hidden;
    font-size: 1.5rem;
    line-height: 1.9rem;
 }
 .extra__description{
+   max-height: 2rem;
+   overflow: hidden;
    font-size: 1.4rem;
    line-height: 2rem;
 }
@@ -171,6 +160,8 @@ a:hover{
    padding: 19.5rem 0rem 20.1rem 0rem;
 }
 .demo__title{
+   max-height: 19rem;
+   overflow: hidden;
    font-size: 5.6rem;
    line-height: 6.16rem;
 }
@@ -203,8 +194,10 @@ a:hover{
 }
 .preview__card__holder{
    column-gap: 16px;
+   row-gap: 10px;
 }
 .preview__card{
+   flex-basis: 24%;
    position: relative;
 }
 .card__preview__description__holder{
@@ -215,10 +208,14 @@ a:hover{
    text-align: center;
 }
 .card__preview__title{
+   max-height: 3rem;
+   overflow: hidden;
    font-size: 2.4rem;
    line-height: 3rem;
 }
 .card__preview__description{
+   max-height: 4rem;
+   overflow: hidden;
    font-size: 1.5rem;
    line-height: 2.1rem;
 }
@@ -316,16 +313,27 @@ a:hover{
    margin: 16px 0px 58px 0px;
    column-gap: 25px;
 }
+.story__border{
+   border: 2px solid #615E5C;
+   border-radius: 2px;
+   background-color: #615E5C;
+}
 .story__title{
+   max-height: 11rem;
+   overflow: hidden;
    font-size: 5rem;
    line-height: 5.5rem;
 }
 .story__description__main{
+   max-height: 9rem;
+   overflow: hidden;
    font-size: 1.7rem;
    line-height: 2.3rem;
    padding: 20px 80px 23px 0px;
 }
 .story__description{
+   max-height: 2.2rem;
+   overflow: hidden;
    font-size: 1.7rem;
    line-height: 2.3rem;
 }
@@ -391,16 +399,22 @@ a:hover{
    padding: 32px 150px 444px 32px;
 }
 h4{
+   max-height: 4rem;
+   overflow: hidden;
    font-size: 3rem;
    line-height: 3.4rem;
 }
 .fitches__description__privat{
+   max-height: 10rem;
+   overflow: hidden;
    padding: 9px 0px 38px 0px;
    color: #434140;
    font-size: 1.6rem;
    line-height: 2.2rem;
 }
 .fitches__description__work{
+   max-height: 10rem;
+   overflow: hidden;
    padding: 9px 0px 17px 0px;
    font-size: 1.6rem;
    line-height: 2.2rem;
@@ -417,10 +431,14 @@ h4{
    padding: 4px 0px 0px 0px;
 }
 .extra__title__products{
+   max-height: 2rem;
+   overflow: hidden;
    font-size: 1.7rem;
    line-height: 2.3rem;
 }
 .extra__description__products{
+   max-height: 2rem;
+   overflow: hidden;
    font-size: 1.6rem;
    line-height: 2.1rem;
 }
@@ -430,17 +448,27 @@ h4{
 }
 .products__card__holder{
    padding: 50px 0px 40px 0px;
-   column-gap: 17px;
+   column-gap: 16px;
+   row-gap: 10px;
 }
 .products__card{
+   flex-basis: 24%;
    background-color: #F7F7F7;
    padding: 32px 18px 24px 18px;
 }
 .card__products__title{
+   max-width: 60%;
+   max-height: 2.7rem;
+   overflow: hidden;
    font-size: 2rem;
    line-height: 2.6rem;
 }
 .card__products__price{
+   max-width: 30%;
+   max-height: 2.7rem;
+   overflow: hidden;
+}
+.card__price{
    font-size: 2rem;
    line-height: 2.6rem;
 }
@@ -453,6 +481,8 @@ h4{
    padding: 22px 3px 26px 3px;
 }
 .card__products__description{
+   max-height: 4rem;
+   overflow: hidden;
    font-size: 1.5rem;
    line-height: 2rem;
    max-width: 55%;
