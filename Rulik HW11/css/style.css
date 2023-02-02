@@ -108,10 +108,10 @@ a:hover{
 .wrapper__header{
    max-width: 1320px;
    margin: 0 auto;
-   padding: 3px 0px 4px 0px ;
+   padding: 16px 0px 5px 0px ;
 }
 .header__logo{
-   margin: 13px 0px 0px 7px;
+   margin: 9px 0px 0px 7px;
 }
 .header__logo__link__box{
    display: none;
@@ -130,11 +130,10 @@ a:hover{
 .header__button{
    font-size: 1.1rem;
    line-height: 2.2rem;
-   margin: 0rem 4.4rem;
-   padding: 6px 25px;
+   margin: 0rem 4.4rem 0.3rem 4.4rem;
+   padding: 2px 25px;
    border: 1px solid #A7BBC9;
    border-radius: 3px;
-   align-self: center;
 }
 .menu{
    position: relative;
@@ -194,7 +193,7 @@ a:hover{
 .extrabox{
    position: absolute;
    background-color: #F1C0C7;
-   bottom: -22px;
+   bottom: -20px;
    padding: 23px 41px 10px 86px;
    column-gap: 20px;
 }
@@ -211,7 +210,7 @@ a:hover{
    line-height: 2rem;
 }
 .demo__holder{
-   padding: 19.5rem 0rem 20.1rem 0rem;
+   padding: 19.5rem 0rem 19rem 0rem;
 }
 .demo__title{
    max-height: 19rem;
@@ -220,15 +219,20 @@ a:hover{
    line-height: 6.16rem;
 }
 .demo__description{
-   padding: 17px 0px 54px 0px;
+   padding: 17px 0px 38px 0px;
    font-size: 1.8rem;
    line-height: 2.4rem;
    color: #434140;
 }
+.demo__buttons__holder{
+   align-items: center;
+}
 .demo__button{
+   width: 19rem;
+   text-align: center;
    background-color: #ffffff;
    border-radius: 25px;
-   padding: 15px 43px;
+   padding: 14px 43px;
    font-size: 1.4rem;
    line-height: 2.0rem;
 }
@@ -411,14 +415,16 @@ a:hover{
    font-size: 1.7rem;
    line-height: 2.3rem;
    color: #615E5C;
-   padding-bottom: 61px;
+   padding-bottom: 46px;
 }
 .alexa__button{
+   width: 13rem;
+   text-align: center;
    font-size: 1.4rem;
    line-height: 2rem;
    background-color: #ADD4E0;
    border-radius: 25px;
-   padding: 15px 30px;
+   padding: 15px 0px;
 }
 .alexa__undertext{
    font-size: 1.1rem;
@@ -558,7 +564,7 @@ h4{
 }
 .products__button{
    background-color: #FFFFFF;
-   max-width: 195px;
+   max-width: 19.5rem;
    text-align: center;
    margin: 0 auto;
    font-size: 1.4rem;
@@ -598,16 +604,18 @@ ul>li>a{
    color: #9CA5B0;
    font-size: 1.4rem;
    line-height: 2rem;
-   padding-bottom: 25px;
+   padding-bottom: 14px;
 }
 .footer__register__button{
+   width: 10.5rem;
    background-color: #FFFFFF;
    border-radius: 25px;
    color: #9CA5B0;
+   text-align: center;
    font-size: 1.4rem;
    line-height: 2rem;
-   padding: 11px 27px;
-   margin: 0px 0px 62px 0px;
+   padding: 11px 0px;
+   margin: 0px 0px 0px 0px;
 }
 .footer__register__language{
    border: 1px solid #3D434C;
@@ -615,7 +623,7 @@ ul>li>a{
    font-size: 1.1rem;
    line-height: 1.7rem;
    text-align: center;
-   margin: 62px 20px 0px 0px;
+   margin: 52px 20px 0px 0px;
 }
 .footer__state{
    text-align: center;
@@ -644,6 +652,9 @@ ul>li>a{
    line-height: 1.7rem;
 }
 @media (max-width: 1380px){
+   .header__logo{
+      margin: 9px 0px 0px 30px;
+   }
    .story__box__main{
       margin: 286px 0px 56px 0px;
       column-gap: 25px;
@@ -679,6 +690,7 @@ ul>li>a{
       row-gap: 2rem;
    }
    .demo__button{
+      width: 17rem;
       padding: 12px 35px;
    }
    .demo__link{
@@ -868,12 +880,12 @@ ul>li>a{
    .alexa__description{
       font-size: 1.5rem;
       line-height: 2.1rem;
-      padding-bottom: 50px;
+      padding-bottom: 40px;
    }
    .alexa__button{
       font-size: 1.4rem;
       line-height: 2rem;
-      padding: 13px 27px;
+      padding: 12px 0px;
    }
    .fithes__privat{
       padding: 30px 30px 356px 30px;
@@ -922,7 +934,7 @@ ul>li>a{
 }
 @media (max-width: 1024px){
    .extrabox{
-      padding: 10px 41px 10px 40px;
+      padding: 15px 41px 5px 40px;
    }
    .demo__holder{
       padding: 10rem 0rem 14rem 0rem;
@@ -935,13 +947,14 @@ ul>li>a{
       line-height: 4.8rem;
    }
    .demo__button{
-      padding: 10px 27px;
+      width: 17rem;
+      padding: 10px 0px;
       font-size: 1.2rem;
       line-height: 2rem;
    }
    .demo__link{
       padding: 0px 0px 0px 0px;
-      margin: 0rem 0rem 0rem 2.6rem ;
+      margin: 0rem 0rem 0rem 0rem ;
       font-size: 1.2rem;
       line-height: 2rem;
    }
@@ -1006,7 +1019,7 @@ ul>li>a{
       line-height: 2.2rem;
    }
    .products__button{
-      max-width: 180px;
+      max-width: 18rem;
       font-size: 1.3rem;
       line-height: 2rem;
       border-radius: 25px;
@@ -1060,18 +1073,17 @@ ul>li>a{
    .footer__register__description{
       font-size: 1.2rem;
       line-height: 1.8rem;
-      padding-bottom: 25px;
+      padding-bottom: 20px;
    }
    .footer__register__button{
       font-size: 1.4rem;
       line-height: 2rem;
       padding: 9px 25px;
-      margin: 0px 0px 62px 0px;
    }
    .footer__register__language{
       font-size: 1.1rem;
       line-height: 1.7rem;
-      margin: 40px 20px 0px 0px;
+      margin: 30px 20px 0px 0px;
    }
    .footer__state{
       font-size: 1rem;
@@ -1100,6 +1112,9 @@ ul>li>a{
    }
    .col-lg-4{
       width: 33.3333%;
+   }
+   .col-lg-2{
+      width: 16.666%;
    }
    .extra__title{
       font-size: 1.3rem;
@@ -1130,12 +1145,12 @@ ul>li>a{
       line-height: 4rem;
    }
    .demo__button{
-      padding: 8px 21px;
+      width: 14rem;
+      padding: 8px 0px;
       font-size: 1rem;
       line-height: 1.6rem;
    }
    .demo__link{
-      margin: 0rem 0rem 0rem 2rem ;
       font-size: 1rem;
       line-height: 1.6rem;
    }
@@ -1236,15 +1251,16 @@ ul>li>a{
    .alexa__description{
       font-size: 1.3rem;
       line-height: 1.8rem;
-      padding-bottom: 50px;
+      padding-bottom: 35px;
    }
    .alexa__button{
+      width: 12rem;
       font-size: 1.3rem;
       line-height: 1.8rem;
-      padding: 13px 27px;
+      padding: 12px 0px;
    }
    .alexa__undertext{
-      font-size: 0.9rem;
+      font-size: 1.2rem;
       line-height: 1.5rem;
       text-align: center;
    }
@@ -1362,7 +1378,7 @@ ul>li>a{
       margin: 0px 3.5px;
    }
    .products__button{
-      max-width: 170px;
+      max-width: 17rem;
       font-size: 1.3rem;
       line-height: 2rem;
       border-radius: 25px;
@@ -1472,16 +1488,17 @@ ul>li>a{
    .alexa__description{
       font-size: 1.1rem;
       line-height: 1.5rem;
-      padding-bottom: 50px;
+      padding-bottom: 35px;
    }
    .alexa__button{
+      width: 11rem;
       font-size: 1.1rem;
       line-height: 1.5rem;
-      padding: 10px 24px;
+      padding: 10px 0px;
    }
    .alexa__undertext{
-      font-size: 0.7rem;
-      line-height: 1.1rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
    }
    .fithes__privat{
       padding: 20px 20px 250px 20px;
@@ -1550,7 +1567,7 @@ ul>li>a{
       margin: 13px 0px 13px 0px;
    }
    .products__button{
-      max-width: 160px;
+      max-width: 16rem;
       font-size: 1.3rem;
       line-height: 2rem;
       border-radius: 25px;
@@ -1558,6 +1575,12 @@ ul>li>a{
    }
 }
 @media (max-width: 700px){
+   .header__logo{
+      display: none;
+   }
+   .header__logo__link__box{
+      display: block;
+   }
    .video__title{
       font-size: 2.5rem;
       line-height: 3rem;
@@ -1573,7 +1596,7 @@ ul>li>a{
       line-height: 2.5rem;
    }
    .extrabox{
-      padding: 7px 20px;
+      padding: 7px 25px;
    }
 }
 @media (max-width: 640px){
@@ -1594,12 +1617,6 @@ ul>li>a{
    }
    .col-s-3{
       width: 25%;
-   }
-   .header__logo{
-      display: none;
-   }
-   .header__logo__link__box{
-      display: block;
    }
    .header__button{
       font-size: 1rem;
@@ -1649,7 +1666,15 @@ ul>li>a{
       padding: 25px 15px 340px 15px;
       row-gap: 15px;
    }
+   .alexa__text__box{
+      align-items: center;
+      text-align: center;
+   }
+   .alexa__title__box{
+      justify-content: center;
+   }
    .alexa__messenger{
+      margin: 0 auto;
       width: 40px;
    }
    .alexa__title{
@@ -1663,16 +1688,15 @@ ul>li>a{
       padding: 0px 0px 20px 0px;
    }
    .alexa__undertext{
-      font-size: 0.7rem;
-      line-height: 1.1rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
    }
    .alexa__button{
+      width: 10rem;
+      margin: 0 auto;
       font-size: 1.1rem;
       line-height: 1.5rem;
-      padding: 8px 21px;
-   }
-   .alexa__button__holder{
-      text-align: center;
+      padding: 8px 0px;
    }
    .alexa__image__box{
       margin: 0 auto;
@@ -1726,6 +1750,9 @@ ul>li>a{
    }
    .footer__logo{
       padding: 0px 10px 20px 0px;
+   }
+   .footer-list{
+      text-align: center;
    }
    .footer__register{
       padding: 0px 0px 0px 0px;
@@ -1815,13 +1842,16 @@ ul>li>a{
       font-size: 1.1rem;
       line-height: 1.5rem;
    }
+   .demo__buttons__holder{
+      row-gap: 0.6rem;
+   }
    .demo__button{
-      padding: 6px 15px;
+      width: 11rem;
+      padding: 6px 0px;
       font-size: 0.8rem;
       line-height: 1.3rem;
    }
    .demo__link{
-      margin: 0rem 0rem 0rem 1rem ;
       font-size: 0.8rem;
       line-height: 1.3rem;
    }
@@ -1855,6 +1885,8 @@ ul>li>a{
       padding: 0px 15px;
    }
    .video__text__box{
+      align-items: center;
+      text-align: center;
       padding: 15px 0px;
    }
    .video__image{
@@ -1887,14 +1919,19 @@ ul>li>a{
       row-gap: 15px;
    }
    .fithes__privat{
-      width: 270px;
+      width: 27rem;
       margin: 0 auto;
       padding: 15px 15px 166px 15px;
    }
    .fitches__work{
-      width: 270px;
+      width: 27rem;
       margin: 0 auto;
       padding: 15px 15px 166px 15px;
+   }
+   .products__card{
+      flex-basis: 27rem;
+      margin: 0 auto;
+      padding: 32px 18px 24px 18px;
    }
    .extrabox__products{
       padding: 15px 0px 0px 0px;
@@ -1908,11 +1945,6 @@ ul>li>a{
    .products__card__holder{
       padding: 20px 0px;
       margin: 0px -13px;
-   }
-   .products__card{
-      flex-basis: 48%;
-      padding: 32px 18px 24px 18px;
-      margin: 0px 2.5px;
    }
    .card__products__title{
       max-height: 2rem;
@@ -1948,6 +1980,17 @@ ul>li>a{
       bottom: -24.6rem;
       left: 0;
       padding: 0 15px;
+   }
+   .alexa__description{
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+      padding: 0px 0px 20px 0px;
+   }
+   .alexa__button{
+      width: 9rem;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+      padding: 7px 0px;
    }
    .wrapper__keepup{
       flex-direction: column;
@@ -2001,6 +2044,9 @@ ul>li>a{
    }
 }
 @media (max-width: 425px){
+   .extrabox{
+      padding: 13px 20px 3px 20px;
+   }
    .demo__holder{
       padding: 5rem 0rem 7rem 0rem;
    }
@@ -2014,12 +2060,12 @@ ul>li>a{
       line-height: 1.3rem;
    }
    .demo__button{
-      padding: 6px 15px;
+      width: 9rem;
+      padding: 5px 0px;
       font-size: 0.7rem;
       line-height: 1.3rem;
    }
    .demo__link{
-      margin: 0rem 0rem 0rem 1rem ;
       font-size: 0.7rem;
       line-height: 1.3rem;
    }
@@ -2065,6 +2111,9 @@ ul>li>a{
    }
 }
 @media (max-width: 375px){
+   .extrabox{
+      padding: 10px 20px 3px 20px;
+   }
    .demo__holder{
       padding: 5rem 0rem 7rem 0rem;
    }
@@ -2077,13 +2126,15 @@ ul>li>a{
       font-size: 0.7rem;
       line-height: 1.1rem;
    }
+   .demo__buttons__holder{
+      row-gap: 0.2rem;
+   }
    .demo__button{
-      padding: 5px 13px;
+      padding: 5px 0px;
       font-size: 0.6rem;
       line-height: 1rem;
    }
    .demo__link{
-      margin: 0rem 0rem 0rem 1rem ;
       font-size: 0.6rem;
       line-height: 1rem;
    }
@@ -2105,11 +2156,6 @@ ul>li>a{
       font-size: 1.1rem;
       line-height: 1.6rem;
       padding-top: 1rem;
-   }
-   .products__card{
-      flex-basis: 98%;
-      padding: 32px 18px 24px 18px;
-      margin: 0px 45px;
    }
    .preview__foto{
       position: absolute;
@@ -2141,6 +2187,9 @@ ul>li>a{
    }
 }
 @media (max-width: 320px){
+   .extrabox{
+      padding: 10px 25px 3px 20px;
+   }
    .preview__foto{
       position: absolute;
       bottom: -16rem;
