@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/slick-theme.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/lightbox.css">
+   <title>Slick</title>
+</head>
+<body>
+   <div class="conteiner">
+      <div class="buttons__holder col-9">
+         <div class="button"><a class="button__description" href="owl.html">Owl</a></div>
+         <div class="button"><a class="button__description" href="swiper.html">Swiper</a></div>
+         <div class="button"><a class="button__description" href="masonry.html">Masonry</a></div>
+      </div>
+      <div class="slider">
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/Fresh_Stock_Content.jpg" src="image/Fresh_Stock_Content.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/0-2836_nature-wallpaper-with-flowers-image-good-morning-photo.jpg" src="image/0-2836_nature-wallpaper-with-flowers-image-good-morning-photo.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/222.jpg" src="image/222.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/carinanebula3.jpg" src="image/carinanebula3.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/fantasy-3077928__480.jpg" src="image/fantasy-3077928__480.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/istockphoto-517188688-612x612.jpg" src="image/istockphoto-517188688-612x612.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/original.jpg" src="image/original.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/pexels-pixabay-268533.jpg" src="image/pexels-pixabay-268533.jpg" alt="#"></div>
+         <div class="col-12"><img id="zoom_01" data-zoom-image="image/tree-736885__480.jpg" src="image/tree-736885__480.jpg" alt="#"></div>
+      </div>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script type="text/javascript" src="https://cdn.rawgit.com/igorlino/elevatezoom-plus/1.1.6/src/jquery.ez-plus.js"></script>
+   <script>
+      $(document).ready(function(){
+         $('.slider').slick({
+            slidesToShow: 3,
+            // autoplay: true,
+            // autoplaySpeed: 600,
+            dots: true,
+            dotsClass: 'slick-dots',
+            focusOnSelect: true,
+            pauseOnHover: true,
+         });
+      });
+      $("[id*=zoom_]").ezPlus();
+   </script>   
+<!-- <script src="js/lightbox.js"></script> -->
+</body>
+</html>

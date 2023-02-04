@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/masonry.css">
+   <title>Masonry</title>
+</head>
+<body>
+   <div class="conteiner">
+      <div class="buttons__holder col-9">
+         <div class="button"><a class="button__description" href="owl.html">Owl</a></div>
+         <div class="button"><a class="button__description" href="swiper.html">Swiper</a></div>
+         <div class="button"><a class="button__description" href="slick.html">Slick</a></div>
+      </div>
+      <div class="grid">
+         <div class="grid-item img-hover-zoom"><img id="zoom_03" src="image/image1.jpeg" data-zoom-image="image/image-1.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image2.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image3.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image4.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image5.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image6.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image7.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image8.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image9.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image1.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image2.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image3.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image4.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image5.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image6.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image7.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image8.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image9.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image1.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image2.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image3.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image4.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image5.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image6.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image7.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image8.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image9.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image1.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image2.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image3.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image4.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image5.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image6.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image7.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image8.jpeg" alt="#"></div>
+         <div class="grid-item img-hover-zoom"><img src="image/image9.jpeg" alt="#"></div>
+      </div>
+   </div>
+<script src="js/masonry.pkgd.min.js"></script>
+<script>
+   var elem = document.querySelector('.grid');
+   var msnry = new Masonry( elem, {
+      itemSelector: '.grid-item',
+      columnWidth: 120,
+      fitWidth: true
+   });
+   var msnry = new Masonry( '.grid', {
+   });
+</script>
+</body>
+</html>
